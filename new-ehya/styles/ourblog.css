@@ -1,0 +1,60 @@
+.ourblog__blocks {
+    background: #F9FBFE;
+    width: 340px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ourblog span {
+    font-family: "HK Grotesk", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #183B56;
+}
+
+.ourblog__blocks h2 {
+    font-family: "HK Grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #183B56;
+}
+
+.ourblog__blocks h3 {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #959EAD;
+}
+
+.ourblog__blocks a {
+    text-decoration: none;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1565D8;
+}
+
+.ourblog__blocks-text img{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.ourblog__blocks-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 20px;
+}
