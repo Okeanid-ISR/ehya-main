@@ -36,7 +36,7 @@
     text-align: left;
 }
 
-.work-culture__text-list {
+.work-culture__text_list {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -45,11 +45,11 @@
     margin-left: 25px;
 }
 
-ul.work-culture__text-list2 {
+ul.work-culture__text_second-list {
     margin-left: 65px;
 }
 
-.work-culture__text-list a:before {
+.work-culture__text_list a:before {
     content: '';
     width: 15px;
     height: 10.8px;
@@ -59,7 +59,7 @@ ul.work-culture__text-list2 {
     margin-top: 11px;
 }
 
-.work-culture__text-list a {
+.work-culture__text_list a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -84,3 +84,8 @@ ul.work-culture__text-list2 {
     /* height: 100%; */
     /* position: inherit; */
 }
+
+.work-culture__picture img {
+    border-radius: 8px;
+}
+

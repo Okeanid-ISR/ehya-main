@@ -1,11 +1,11 @@
-.ourblog__blocks {
+.our-blog__advices {
     background: #F9FBFE;
     width: 340px;
     padding: 10px;
     border-radius: 8px;
 }
 
-.ourblog span {
+.our-blog span {
     font-family: "HK Grotesk", sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -15,7 +15,7 @@
     color: #183B56;
 }
 
-.ourblog__blocks h2 {
+.our-blog__advices h2 {
     font-family: "HK Grotesk", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -25,7 +25,7 @@
     color: #183B56;
 }
 
-.ourblog__blocks h3 {
+.our-blog__advices h3 {
     font-family: Open Sans, sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -35,7 +35,7 @@
     color: #959EAD;
 }
 
-.ourblog__blocks a {
+.our-blog__advices a {
     text-decoration: none;
     font-family: Open Sans, sans-serif;
     font-size: 14px;
@@ -46,15 +46,19 @@
     color: #1565D8;
 }
 
-.ourblog__blocks-text img{
-    padding-left: 10px;
+.our-blog__advices img{
     cursor: pointer;
+    border-radius: 8px;
 }
 
-.ourblog__blocks-text {
+.our-blog__advices_text {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     padding-left: 20px;
+}
+.our-blog__advices_text__arrow img {
+    margin-left: 14px;
+    margin-top: 5px;
 }

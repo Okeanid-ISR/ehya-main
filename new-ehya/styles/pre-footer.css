@@ -1,4 +1,4 @@
-.footer__blocks h3 {
+.footer-main__facilities h3 {
     font-family: Open Sans, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -8,7 +8,7 @@
     color: #183B56;
 }
 
-.footer__blocks a {
+.footer-main__facilities a {
     font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -18,7 +18,7 @@
     color: #183B56;
 }
 
-.footer__blocks h2 {
+.footer-main__facilities h2 {
     font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -28,25 +28,25 @@
     color: #5A7184;
 }
 
-.footer-ovals div {
+.footer-main__ovals div {
     height: 40px;
     width: 42px;
     background: #E7EBF1;
     border-radius: 50%;
 }
 
-.footer-ovals {
+.footer-main__ovals {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-.footer {
+.footer-main {
     margin-top: 128px;
 }
 
-.footer-ovals div {
+.footer-main__ovals div {
     margin-right: 10px;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 
-.footer__firstblock h2 {
+.footer-main__logo-main h2 {
     font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -64,7 +64,7 @@
     color: #5A7184;
 }
 
-.footer__heart {
+.footer-main__heart {
     margin: 0 auto;
     margin-top: 96px;
     display: flex;
@@ -73,7 +73,7 @@
 }
 
 
-.footer__heart a {
+.footer-main__heart a {
     text-decoration: none;
     color: #5A7184;
     font-family: Open Sans, sans-serif;
@@ -84,7 +84,11 @@
     margin-top: 24px;
 }
 
-.footer-ovals svg {
+.footer-main__heart svg {
+    cursor: pointer;
+}
+
+.footer-main__ovals svg {
     margin: 0 auto;
     display: flex;
 }

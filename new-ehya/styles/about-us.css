@@ -2,23 +2,23 @@
     margin: 0 auto;
 }
 
-.make-it-work {
+.about-us__main {
     display: flex;
     flex-direction: column;
 }
 
-.about-us__image {
+.about-us__main_image {
     margin: 0 auto;
 }
 
-.about-us__text {
+.about-us__main_text {
     margin: 0 auto;
     text-align: center;
     line-height: 32px;
     padding-bottom: 28px;
 }
 
-.about-us__text h3 {
+.about-us__main_text h3 {
     font-family: Open Sans, sans-serif;
     font-size: 18px;
     font-weight: 400;

@@ -27,12 +27,16 @@ nav.header__main-menu {
     font-size: 16px;
     font-family: Open Sans, sans-serif;
     padding: 13px 24px 13px 24px;
-    left: 0;
-    right: 0;
+    margin-left: 10px;
     font-weight: 700;
     cursor: pointer;
 }
 
-.header-main__main-logo {
+.header-main__main-logo svg {
     cursor: pointer;
+    margin-top: 9px;
+}
+
+.header__main-menu a {
+
 }
