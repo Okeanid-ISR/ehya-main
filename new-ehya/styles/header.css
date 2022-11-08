@@ -1,4 +1,4 @@
-.header-main__main {
+.header-main {
     display: flex;
     padding: 26px 0 200px 0px;
 }
@@ -35,8 +35,4 @@ nav.header__main-menu {
 .header-main__main-logo svg {
     cursor: pointer;
     margin-top: 9px;
-}
-
-.header__main-menu a {
-
 }
