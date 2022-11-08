@@ -1,7 +1,12 @@
 .strip-updates {
     background: #1565D8;
     text-align: center;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* box-sizing: border-box; */
 }
+
+
 
 .strip-updates__text h2 {
     font-family: "HK Grotesk", sans-serif;
@@ -37,18 +42,17 @@
     margin: 0 auto;
     padding: 5px 5px 5px 20px;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     font-family: Open Sans, sans-serif;
     font-weight: 600;
     color: #959EAD;
     font-size: 16px;
     border-radius: 8px;
+    align-items: center;
 }
 
 .strip-updates__text_btn button {
     padding: 11px 18px 10px 20px;
-    width: 143px;
+    width: 128px;
     height: 54px;
     background: #1565D8;
     color: #ffffff;
@@ -60,8 +64,28 @@
     cursor: pointer;
     text-align: center;
     margin-left: 88px;
+    margin-top: 24px;
 }
 
 .email__btn-main-img {
     cursor: pointer;
+}
+
+.strip-updates__form_mail {
+    height: 83px;
+}
+
+.strip-updates__form_check {
+    width: 137px;
+    position: relative;
+    top: 15px;
+    right: 37px;
+}
+
+.strip-updates__form_mail button:hover {
+    opacity: 0.92;
+}
+
+.strip-updates__form_mail input {
+    background: white;
 }

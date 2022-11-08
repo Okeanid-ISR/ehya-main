@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="fixed classes + images + sticky footer">
+      <change beforePath="$PROJECT_DIR$/new-ehya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-ehya/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-ehya/styles/email.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-ehya/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/new-ehya/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-ehya/styles/pre-footer.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="https://github.com/Okeanid-ISR/ehya-main.git" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2GnpzfWLKMZVVFvNlHU6skPhOAR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\new-ehya\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\new-ehya\styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="" />
+      <created>1667034465535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667034465535</updated>
+      <workItem from="1667034466687" duration="12228000" />
+      <workItem from="1667130522916" duration="3235000" />
+      <workItem from="1667162851355" duration="3476000" />
+      <workItem from="1667207617609" duration="16000" />
+      <workItem from="1667214915576" duration="3437000" />
+      <workItem from="1667307700141" duration="2242000" />
+      <workItem from="1667342016113" duration="11010000" />
+      <workItem from="1667568439197" duration="3739000" />
+      <workItem from="1667580064442" duration="863000" />
+      <workItem from="1667646819608" duration="6519000" />
+      <workItem from="1667712253947" duration="36000" />
+      <workItem from="1667713359026" duration="671000" />
+      <workItem from="1667720987703" duration="7467000" />
+      <workItem from="1667754830334" duration="1304000" />
+      <workItem from="1667756176385" duration="7477000" />
+      <workItem from="1667812266373" duration="141000" />
+      <workItem from="1667812419068" duration="7503000" />
+      <workItem from="1667832645778" duration="1959000" />
+      <workItem from="1667846233498" duration="7608000" />
+      <workItem from="1667861418488" duration="386000" />
+      <workItem from="1667862808927" duration="55000" />
+      <workItem from="1667894657131" duration="729000" />
+      <workItem from="1667899181745" duration="5000" />
+      <workItem from="1667900075953" duration="3303000" />
+      <workItem from="1667909220442" duration="11099000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1667754947732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667754947732</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1667755269623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667755269623</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test 2">
+      <created>1667755377022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667755377022</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test 2">
+      <created>1667755675581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667755675581</updated>
+    </task>
+    <task id="LOCAL-00005" summary="https://github.com/Okeanid-ISR/ehya-main.git">
+      <created>1667756000050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667756000050</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1667756055668</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667756055668</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed classes + images + sticky footer">
+      <created>1667909354786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667909354786</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="test 2" />
+    <MESSAGE value="https://github.com/Okeanid-ISR/ehya-main.git" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="first commit #1" />
+    <MESSAGE value="first commit #111" />
+    <MESSAGE value="first commit#111" />
+    <MESSAGE value="half-fixed" />
+    <MESSAGE value="fixed classes + images + sticky footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed classes + images + sticky footer" />
+  </component>
+</project>
