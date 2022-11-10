@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 }
 
 .content-main {
@@ -12,3 +13,4 @@
 .footer-main {
     flex-shrink: 0;
 }
+

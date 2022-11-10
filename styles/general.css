@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --font-main: 'Open Sans', sans-serif;
+    --font-secondary: 'HK Grotesk', sans-serif;
+    --blue: #1565D8;
+    --black: #183B56;
+    --header-gray: #E7EBF1;
+}
