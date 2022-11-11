@@ -23,7 +23,6 @@
 
 .build-work__pictures {
     display: grid;
-    /* display: flex; */
     grid-template-columns: repeat(12, 1fr);
     position: relative;
     flex-direction: row;
@@ -35,18 +34,16 @@
 .build-work__text h2 {
     font-size: 48px;
     margin-top: 25px;
-    margin-left: 9px;
+    font-family: var(--font-secondary);
 }
 
 .build-work__text h3 {
     color: #5A7184;
     line-height: 34px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main);
     font-weight: 400;
     margin-top: 44px;
-    /* margin-left: 10px;;/* left: 6px; */
-    margin-left: 9px;
 }
 
 .build-work__text {

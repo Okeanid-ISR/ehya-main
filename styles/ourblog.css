@@ -6,7 +6,7 @@
 }
 
 .our-blog span {
-    font-family: "HK Grotesk", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 48px;
     font-weight: 700;
     line-height: 32px;
@@ -16,7 +16,7 @@
 }
 
 .our-blog__advices h2 {
-    font-family: "HK Grotesk", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -26,7 +26,7 @@
 }
 
 .our-blog__advices h3 {
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-main);
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
@@ -37,7 +37,7 @@
 
 .our-blog__advices a {
     text-decoration: none;
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-main);
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
@@ -46,7 +46,7 @@
     color: #1565D8;
 }
 
-.our-blog__advices img{
+.our-blog__advices img {
     cursor: pointer;
     border-radius: 8px;
 }
@@ -58,6 +58,7 @@
     align-items: center;
     padding-left: 20px;
 }
+
 .our-blog__advices_text__arrow img {
     margin-left: 14px;
     margin-top: 5px;
