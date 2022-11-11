@@ -23,13 +23,19 @@
 
 .build-work__pictures {
     display: grid;
+    /* display: flex; */
     grid-template-columns: repeat(12, 1fr);
     position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 0px;
+    margin-left: -13px;
 }
 
 .build-work__text h2 {
     font-size: 48px;
     margin-top: 25px;
+    margin-left: 9px;
 }
 
 .build-work__text h3 {
@@ -39,16 +45,23 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin-top: 44px;
+    /* margin-left: 10px;;/* left: 6px; */
+    margin-left: 9px;
 }
 
 .build-work__text {
     position: relative;
-    left: 42px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .build-work__pictures_wrapper {
     padding: 0px 10px 0px 0px;
     background: white;
-    border-radius: 8px;
+    border-radius: 8px 8px 8px 0;
 }
 

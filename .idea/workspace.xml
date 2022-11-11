@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="renamed files + button">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehya-main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/.idea/new-ehya.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/fonts/hk-groteks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Baseblog1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Baseblog2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Baseblog3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Iconinf-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Iconinf-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Iconinf-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Iconinf-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Iconnew.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Imagebuildwork2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Imageworkculture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/Logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/arrow-right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/buildwork1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/email.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/images/header-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/scripts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/about-us.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/buildwork.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/general.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/information.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/ourblog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/strip-updates.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-ehya/styles/workculture.css" beforeDir="false" />
+    <list default="true" id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="box sizing added&#10;hero fixed&#10;container fixed&#10;unique containers created&#10;header fixed&#10;js.file created&#10;git ignore added(i am not sure if I've done it right&#10;files in git fixed&#10;idea file deleted">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/about-us.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/buildwork.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/buildwork.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +105,7 @@
       <workItem from="1667900075953" duration="3303000" />
       <workItem from="1667909220442" duration="12163000" />
       <workItem from="1668012458365" duration="3922000" />
-      <workItem from="1668080425844" duration="8794000" />
+      <workItem from="1668080425844" duration="13414000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1667754947732</created>
@@ -200,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668012550083</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="box sizing added&#10;hero fixed&#10;container fixed&#10;unique containers created&#10;header fixed&#10;js.file created&#10;git ignore added(i am not sure if I've done it right&#10;files in git fixed&#10;idea file deleted">
+      <created>1668121304513</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668121304513</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +207,7 @@
     <MESSAGE value="half-fixed" />
     <MESSAGE value="fixed classes + images + sticky footer" />
     <MESSAGE value="renamed files + button" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed files + button" />
+    <MESSAGE value="box sizing added&#10;hero fixed&#10;container fixed&#10;unique containers created&#10;header fixed&#10;js.file created&#10;git ignore added(i am not sure if I've done it right&#10;files in git fixed&#10;idea file deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="box sizing added&#10;hero fixed&#10;container fixed&#10;unique containers created&#10;header fixed&#10;js.file created&#10;git ignore added(i am not sure if I've done it right&#10;files in git fixed&#10;idea file deleted" />
   </component>
 </project>

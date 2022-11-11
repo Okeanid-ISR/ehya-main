@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
-@import url('../fonts/hk-groteks.css');
+@import url('./fonts/hk-groteks.css');
 
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 
 @import "general.css";
 @import "grid.css";
 @import "header.css";
-@import "about-us.css";
+@import "hero.css";
 @import "information.css";
 @import 'buildwork.css';
 @import "workculture.css";
