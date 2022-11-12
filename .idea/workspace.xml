@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="build work fixed/broken&#10;work culture fixed/broken&#10;sticky footer work/do not work?">
+    <list default="true" id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="footer ul li fixed&#10;font family + size fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/buildwork.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/buildwork.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/information.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/information.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/ourblog.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ourblog.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +99,9 @@
       <workItem from="1667900075953" duration="3303000" />
       <workItem from="1667909220442" duration="12163000" />
       <workItem from="1668012458365" duration="3922000" />
-      <workItem from="1668080425844" duration="16776000" />
+      <workItem from="1668080425844" duration="17027000" />
+      <workItem from="1668193063018" duration="9000" />
+      <workItem from="1668255533295" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1667754947732</created>
@@ -185,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668126711947</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="footer ul li fixed&#10;font family + size fixed">
+      <created>1668172032308</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668172032308</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +219,7 @@
     <MESSAGE value="renamed files + button" />
     <MESSAGE value="box sizing added&#10;hero fixed&#10;container fixed&#10;unique containers created&#10;header fixed&#10;js.file created&#10;git ignore added(i am not sure if I've done it right&#10;files in git fixed&#10;idea file deleted" />
     <MESSAGE value="build work fixed/broken&#10;work culture fixed/broken&#10;sticky footer work/do not work?" />
-    <option name="LAST_COMMIT_MESSAGE" value="build work fixed/broken&#10;work culture fixed/broken&#10;sticky footer work/do not work?" />
+    <MESSAGE value="footer ul li fixed&#10;font family + size fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer ul li fixed&#10;font family + size fixed" />
   </component>
 </project>
