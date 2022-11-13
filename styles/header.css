@@ -1,7 +1,6 @@
-header
 .header-main {
-    display: flex;
-    flex-direction: row;
+    flex-shrink: 0;
+    height: 100px;
 }
 
 nav.header__main-menu {
@@ -51,11 +50,29 @@ nav.header-main__menu {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    height: 48px;
+    height: 100%;
 }
 
 .header-main_wrapper {
     padding-top: 26px;
-    padding-bottom: 198px;
     background: var(--header-gray);
+}
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-main {
+    flex-grow: 1;
+    min-height: 30vh;
+}
+
+.header-main__menu__hrefs {
+
+}
+
+a:hover {
+
 }
