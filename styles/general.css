@@ -7,6 +7,10 @@
     margin-right: auto;
 }
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
 :root {
     --font-main: 'Open Sans', sans-serif;
     --font-secondary: 'HK Grotesk', sans-serif;

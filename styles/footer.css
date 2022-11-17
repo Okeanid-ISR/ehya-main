@@ -2,7 +2,8 @@
     font-family: Open Sans, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 25px;
+    /* line-height: 25px; */
+    margin-bottom: 15px;
     text-align: left;
     color: #183B56;
 }
@@ -89,6 +90,14 @@
     margin-bottom: 128px;
 }
 
-.wrapper-for_footer {
-    margin-bottom: 80px;
+.footer-main {
+    padding-bottom: 80px;
+}
+
+.footer-main__logo-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 160px;
+    justify-content: space-between;
 }
