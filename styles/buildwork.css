@@ -1,14 +1,11 @@
 .build-work {
-    padding-bottom: 125px;
+    padding-bottom: 128px;
 }
 
 .bw-1 {
     grid-column: 1 / span 2;
     grid-row: 1;
-    padding-top: 0%;
-    z-index: 1;
     position: relative;
-    height: 440px;
     border-radius: 8px;
 }
 
@@ -16,8 +13,8 @@
     grid-column: 4/ -1;
     position: relative;
     grid-row: 1;
-    left: -128px;
-    top: 125px;
+    right: 128px;
+    top: 128px;
     z-index: -1;
 }
 
@@ -27,8 +24,6 @@
     position: relative;
     flex-direction: row;
     justify-content: flex-start;
-    margin-right: 0px;
-    margin-left: -13px;
 }
 
 .build-work__text h2 {
@@ -57,7 +52,7 @@
 }
 
 .build-work__pictures_wrapper {
-    padding: 0px 10px 0px 0px;
+    padding: 10px 10px 0px 0px;
     background: white;
     border-radius: 8px 8px 8px 0;
 }
