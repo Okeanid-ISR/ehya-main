@@ -1,7 +1,11 @@
 .our-blog__advices {
     background: #F9FBFE;
     padding: 10px;
+    height: 438px;
+    display: flex;
     border-radius: 8px;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .our-blog span {
@@ -54,13 +58,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    height: 100%;
     padding-left: 20px;
+    align-content: space-around;
 }
 
 .our-blog__advices_text__arrow img {
     margin-left: 14px;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .our-blog h2 {
