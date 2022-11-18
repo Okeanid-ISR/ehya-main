@@ -75,10 +75,6 @@
     margin-top: 24px;
 }
 
-.footer-main__heart svg {
-    cursor: pointer;
-}
-
 .footer-main__ovals svg {
     margin: 0 auto;
     display: flex;
@@ -100,6 +96,7 @@
     background: beige;
     width: 56px;
     height: 56px;
+    cursor: pointer;
 }
 
 .footer-main__heart__oval {
