@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="work culture fix: elements position changed">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/buildwork.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/buildwork.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/workculture.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/workculture.css" afterDir="false" />
-    </list>
+    <list default="true" id="3abb3fc6-f0c0-4831-ba5c-32635ea66bd0" name="Changes" comment="work-culture fix: cols changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +107,7 @@
       <workItem from="1668636869795" duration="1120000" />
       <workItem from="1668715476358" duration="838000" />
       <workItem from="1668716735164" duration="5489000" />
-      <workItem from="1668773581109" duration="10808000" />
+      <workItem from="1668773581109" duration="11251000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1667754947732</created>
@@ -268,7 +263,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668783083207</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="our-blog fix: blocks parameters changed">
+      <created>1668784767066</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668784767066</updated>
+    </task>
+    <task id="LOCAL-00024" summary="build-work fix: margins-paddings changed">
+      <created>1668784831768</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668784831768</updated>
+    </task>
+    <task id="LOCAL-00025" summary="work-culture fix: cols changed">
+      <created>1668784922268</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668784922268</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +325,9 @@
     <MESSAGE value="footer fix: image form changed" />
     <MESSAGE value="strip-updates fix: input + button + checkbox work appropriately with email validation" />
     <MESSAGE value="work culture fix: elements position changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="work culture fix: elements position changed" />
+    <MESSAGE value="our-blog fix: blocks parameters changed" />
+    <MESSAGE value="build-work fix: margins-paddings changed" />
+    <MESSAGE value="work-culture fix: cols changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="work-culture fix: cols changed" />
   </component>
 </project>
