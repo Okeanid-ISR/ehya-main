@@ -68,13 +68,31 @@
     margin-top: 3px;
 }
 
-.our-blog h2 {
-    padding: 0;
-    margin: 0;
-}
 
 .wrapper-for_our-blog {
     margin-top: 120px;
     margin-bottom: 96px;
 }
 
+.our-blog__advices_text__arrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.our-blog__advices_text__arrow svg {
+    --margin-for-arrow: 10px;
+    margin-left: var(--margin-for-arrow);
+}
+
+.our-blog__advices_text__arrow:hover {
+    opacity: 90%;
+    color: blue;
+    transition: ease-out;
+    transition-duration: 0.3s;
+    margin-left: 10px;
+}
+
+.our-blog__advices_text__arrow svg {
+  cursor: pointer;
+}

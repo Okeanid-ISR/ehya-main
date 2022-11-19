@@ -1,4 +1,6 @@
 .header-main {
+    --header-margin: 40px;
+    --user-padding: 10px;
     flex-shrink: 0;
     height: 100px;
 }
@@ -8,10 +10,9 @@ nav.header__main-menu {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-left: 0px;
 }
 
-.header-main{
+.header-main {
     flex-shrink: 0;
     background-color: #E7EBF1;
     display: flex;
@@ -20,12 +21,10 @@ nav.header__main-menu {
 
 .header-main__menu a {
     color: #183B56;
-    padding: 10px;
+    padding: var(--user-padding);
     font-family: var(--font-main);
     font-weight: 600;
     font-size: 16px;
-    margin-left: 0px;
-    margin-right: 30px;
 }
 
 .header-main__menu button {
@@ -42,14 +41,12 @@ nav.header__main-menu {
 
 .header-main__logo svg {
     cursor: pointer;
-    margin-top: 9px;
 }
 
 nav.header-main__menu {
     display: flex;
     height: 100%;
     align-items: center;
-    margin-right: calc(var(--header-margin) - var(--user-padding));
 }
 
 .header-main__links {
@@ -60,10 +57,10 @@ nav.header-main__menu {
 
 .header-main__logo {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
     flex-direction: row;
     height: 100%;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .header-main_wrapper {
@@ -83,11 +80,11 @@ nav.header-main__menu {
 }
 
 a:hover {
-    color: #1565D8;
-    opacity: 50%;
+    color: blue;
+    opacity: 75%;
     text-decoration: none;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .header-main__menu__btn {
@@ -100,9 +97,19 @@ a:hover {
 .header-main__menu__btn:hover {
     font-family: var(--font-main);
     cursor: pointer;
-    background:#1565D8;
+    background: #1565D8;
     color: white;
     transition: ease-in;
     transition-duration: 0.2s;
 }
 
+.header-main__menu__link {
+    margin-right: calc(var(--header-margin) - var(--user-padding));
+}
+
+.header-main__logo svg:hover {
+    transition: ease-out;
+    transition-duration: 0.3s;
+    margin: 10px;
+    opacity: 85%;
+}

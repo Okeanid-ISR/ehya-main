@@ -7,8 +7,6 @@
     justify-content: space-around;
 }
 
-
-
 .strip-updates__text h2 {
     font-family: "HK Grotesk", sans-serif;
     font-size: 48px;
@@ -55,7 +53,6 @@
 
 .strip-updates__text_btn button {
     padding: 11px 18px 10px 20px;
-    /* width: 100%; */
     height: 100%;
     background: #1565D8;
     color: #ffffff;
@@ -73,10 +70,6 @@
 .email__btn-main-img {
     left: 0;
     cursor: pointer;
-    /* position: absolute; */
-    /* top: 0; */
-    /* height: 100%; */
-    /* display: flex; */
 }
 
 .strip-updates__form_mail {
@@ -92,8 +85,6 @@
     top: 15px;
     right: 37px;
     flex-direction: row;
-    /* align-content: space-around; */
-    /* justify-content: space-around; */
 }
 
 .strip-updates__form_mail button:hover {
@@ -122,9 +113,9 @@ form#strip-updates__form {
 
 .strip-updates__text {
     display: flex;
-    height: 260px;
+    height: 80%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 input:-webkit-autofill{

@@ -112,3 +112,10 @@
 .footer-main__logo-main svg{
     cursor: pointer;
 }
+
+.footer-main__logo-main__ehya svg:hover {
+    transition: ease-out;
+    transition-duration: 0.3s;
+    margin-left: 10px;
+    opacity: 85%;
+}
