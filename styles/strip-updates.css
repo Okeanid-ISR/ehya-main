@@ -1,10 +1,7 @@
 .strip-updates {
     background: #1565D8;
-    height: 363px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    padding: 80px 0;
 }
 
 .strip-updates__text h2 {
@@ -12,7 +9,7 @@
     font-size: 48px;
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 0;
+    margin-bottom: 25px;
 }
 
 .strip-updates__text h3 {
@@ -23,7 +20,7 @@
     margin-bottom: 43px;
 }
 
-.strip-updates__text_btn input {
+.str-form__input input {
     background: #FFFFFF;
     border-radius: 8px;
     text-align: left;
@@ -35,11 +32,11 @@
     flex-grow: 4;
 }
 
-.strip-updates__text_btn {
+.str-form {
     display: flex;
     background: #FFFFFF;
     width: 430px;
-    height: 56px;
+    height: 60px;
     margin: 0 auto;
     padding: 5px 5px 5px 20px;
     flex-direction: row;
@@ -49,11 +46,12 @@
     font-size: 16px;
     border-radius: 8px;
     align-items: center;
+    justify-content: space-between;
 }
 
-.strip-updates__text_btn button {
-    padding: 11px 18px 10px 20px;
-    height: 100%;
+.str-form__btn button {
+    padding: 15px 28px 15px 28px;
+    width: 100%;
     background: #1565D8;
     color: #ffffff;
     border-style: none;
@@ -64,48 +62,48 @@
     font-size: 18px;
     cursor: pointer;
     text-align: center;
-    flex-grow: 4;
 }
 
-.email__btn-main-img {
-    left: 0;
+.str-form__input {
     cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
-.strip-updates__form_mail {
+.form__input {
     height: 100%;
     display: flex;
     width: 100%;
 }
 
-.strip-updates__form_check {
-    width: 155px;
+.str-form__check {
     display: flex;
-    position: relative;
-    top: 15px;
-    right: 37px;
-    flex-direction: row;
+    align-items: center;
+    margin-top: 18px;
 }
 
-.strip-updates__form_mail button:hover {
+.str-form__input button:hover {
     opacity: 0.92;
 }
 
-.strip-updates__form_mail input {
+.str-form__input input {
     background: white;
+    width: 100%;
 }
 
-.wrapper-for_strip-updates {
+.strip-updates_wrapper {
 
-    margin-bottom: 128px;
+    padding-bottom: 128px;
 }
 
-form#strip-updates__form {
+form#str-form {
     height: 100%;
     width: 100%;
 }
 
-.strip-updates__form_check label {
+.str-form__check label {
     cursor: pointer;
     color: var(--header-gray);
     font-family: var(--font-secondary);
@@ -113,11 +111,31 @@ form#strip-updates__form {
 
 .strip-updates__text {
     display: flex;
-    height: 80%;
     flex-direction: column;
     justify-content: space-between;
 }
 
-input:-webkit-autofill{
-    box-shadow:inset 0 0 0 1000px #fff;
+input:-webkit-autofill {
+    box-shadow: inset 0 0 0 1000px #fff;
 }
+
+.strip-updates svg:hover {
+    transform: scale(1.2);
+    fill: darkblue;
+}
+
+.strip-updates svg {
+    transition: all 0.3s;
+}
+
+form#form {
+    width: 430px;
+    margin: 0 auto;
+}
+
+.checkbox {
+    width: 2.5em;
+    height: 1em;
+}
+
+
