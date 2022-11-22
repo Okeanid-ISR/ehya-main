@@ -1,4 +1,4 @@
-.our-blog__advices {
+.our-blog-advices {
     background: #F9FBFE;
     padding: 10px;
     height: 438px;
@@ -18,7 +18,7 @@
     color: #183B56;
 }
 
-.our-blog__advices h2 {
+.our-blog-advices h3 {
     font-family: var(--font-secondary);
     font-size: 24px;
     font-weight: 700;
@@ -28,7 +28,7 @@
     color: #183B56;
 }
 
-.our-blog__advices h3 {
+.our-blog-advices p {
     font-family: var(--font-main);
     font-size: 14px;
     font-weight: 700;
@@ -38,7 +38,7 @@
     color: #959EAD;
 }
 
-.our-blog__advices a {
+.our-blog-advices a {
     text-decoration: none;
     font-family: var(--font-main);
     font-size: 14px;
@@ -49,12 +49,12 @@
     color: #1565D8;
 }
 
-.our-blog__advices img {
+.our-blog-advices img {
     cursor: pointer;
     border-radius: 8px;
 }
 
-.our-blog__advices_text {
+.our-blog-advices__text {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -63,29 +63,30 @@
     align-content: space-around;
 }
 
-.our-blog__advices_text__arrow img {
+.our-blog-advices__arrow img {
     margin-left: 14px;
     margin-top: 3px;
 }
 
 
-.wrapper-for_our-blog {
-    margin-top: 120px;
-    margin-bottom: 96px;
+.our-blog_wrapper {
+    padding-top: 120px;
+    padding-bottom: 96px;
 }
 
-.our-blog__advices_text__arrow {
+.our-blog-advices__arrow {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    cursor: pointer;
 }
 
-.our-blog__advices_text__arrow svg {
+.our-blog-advices__arrow svg {
     --margin-for-arrow: 10px;
     margin-left: var(--margin-for-arrow);
 }
 
-.our-blog__advices_text__arrow:hover {
+.our-blog-advices__arrow:hover {
     opacity: 90%;
     color: blue;
     transition: ease-out;
@@ -93,6 +94,18 @@
     margin-left: 10px;
 }
 
-.our-blog__advices_text__arrow svg {
-  cursor: pointer;
+.our-blog-advices__arrow svg {
+    transition: all 0.3s;
+}
+
+.our-blog-advices img:hover {
+    transform: scale(1.020);
+}
+
+.our-blog-advices img {
+    transition: all 0.3s;
+}
+
+h2.our-blog__theme {
+    margin-bottom: 58px;
 }
