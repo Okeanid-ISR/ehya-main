@@ -1,4 +1,4 @@
-.footer-main__facilities h3 {
+.footer-main-facilities h3 {
     font-family: Open Sans, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -7,7 +7,7 @@
     color: #183B56;
 }
 
-.footer-main__facilities a {
+.footer-main-facilities a {
     font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -16,7 +16,7 @@
     color: #183B56;
 }
 
-.footer-main__facilities h2 {
+.footer-main-facilities h2 {
     font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -25,29 +25,30 @@
     color: #5A7184;
 }
 
-.footer-main__ovals div {
+.footer-main-ovals div {
     height: 40px;
     width: 42px;
     background: #E7EBF1;
     border-radius: 50%;
 }
 
-.footer-main__ovals {
+.footer-main-ovals {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-.footer-main__ovals div {
+.footer-main-ovals div {
     margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     cursor: pointer;
+    align-items: center;
 }
 
-.footer-main__logo-main h2 {
+.footer-main-start__text h2 {
     font-family: var(--font-main);
     font-size: 16px;
     font-weight: 400;
@@ -56,7 +57,7 @@
     color: #5A7184;
 }
 
-.footer-main__heart {
+.footer-main-heart {
     margin: 0 auto;
     margin-top: 96px;
     display: flex;
@@ -65,7 +66,7 @@
 }
 
 
-.footer-main__heart a {
+.footer-main-heart a {
     text-decoration: none;
     color: #5A7184;
     font-family:var(--font-main);
@@ -75,16 +76,12 @@
     margin-top: 24px;
 }
 
-.footer-main__ovals svg {
-    margin: 0 auto;
-    display: flex;
-}
-
 .footer-main {
     padding-bottom: 80px;
+    padding-top: 128px;
 }
 
-.footer-main__logo-main {
+.footer-main-start {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -92,14 +89,14 @@
     justify-content: space-between;
 }
 
-.footer-main__heart__square {
+.footer-main-heart__square {
     background: beige;
     width: 56px;
     height: 56px;
     cursor: pointer;
 }
 
-.footer-main__heart__oval {
+.footer-main-heart__oval {
     border-radius: 50%;
     display: flex;
     height: 100%;
@@ -109,13 +106,14 @@
     justify-content: space-around;
 }
 
-.footer-main__logo-main svg{
-    cursor: pointer;
-}
-
-.footer-main__logo-main__ehya svg:hover {
+.footer-main-start__ehya svg:hover {
     transition: ease-out;
     transition-duration: 0.3s;
     margin-left: 10px;
     opacity: 85%;
+    cursor: pointer;
+}
+
+.footer-main-facilities__list a:hover {
+    color: blue;
 }

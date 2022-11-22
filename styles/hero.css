@@ -24,6 +24,11 @@
     z-index: -1;
 }
 
+.hero__picture img:hover {
+    transform: scale(1.025);
+    box-shadow: 6px 2px 24px 5px rgba(124,124,124,0.2);
+}
+
 
 .hero__text {
     width: 100%;
@@ -39,6 +44,7 @@
     width: 750px;
     height: var(--height-picture);
     border-radius: 8px;
+    transition: all 0.3s;
 }
 
 .hero__content {

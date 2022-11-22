@@ -90,3 +90,7 @@ ul.work-culture-text__second-list {
 .work-culture-text {
     margin-top: 83px;
 }
+
+.work-culture-text__first-list a:hover {
+    color: blue;
+}
