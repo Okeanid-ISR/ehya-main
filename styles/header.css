@@ -5,7 +5,7 @@
     height: 100px;
 }
 
-nav.header__main-menu {
+.header-main-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -19,7 +19,7 @@ nav.header__main-menu {
     align-items: center;
 }
 
-.header-main__menu a {
+.header-main-menu__link  {
     color: #183B56;
     padding: var(--user-padding);
     font-family: var(--font-main);
@@ -27,7 +27,7 @@ nav.header__main-menu {
     font-size: 16px;
 }
 
-.header-main__menu button {
+.header-main-menu__btn  {
     border: 2px solid #1565D8;
     border-radius: 8px;
     background: #E7EBF1;
@@ -39,7 +39,7 @@ nav.header__main-menu {
     cursor: pointer;
 }
 
-.header-main__logo svg {
+.header-main-logo svg {
     cursor: pointer;
 }
 
@@ -49,13 +49,13 @@ nav.header-main__menu {
     align-items: center;
 }
 
-.header-main__links {
+.header-main-menu {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.header-main__logo {
+.header-main-logo {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -79,7 +79,7 @@ nav.header-main__menu {
     min-height: 30vh;
 }
 
-a:hover {
+.header-main-menu__link:hover {
     color: blue;
     opacity: 75%;
     text-decoration: none;
@@ -87,14 +87,7 @@ a:hover {
     transition: all 0.3s ease;
 }
 
-.header-main__menu__btn {
-    color: #fff;
-    padding: 13px 24px 13px 24px;
-    background: #1565D8;
-}
-
-
-.header-main__menu__btn:hover {
+.header-main-menu__btn:hover {
     font-family: var(--font-main);
     cursor: pointer;
     background: #1565D8;
@@ -103,11 +96,11 @@ a:hover {
     transition-duration: 0.2s;
 }
 
-.header-main__menu__link {
+.header-main-menu__link {
     margin-right: calc(var(--header-margin) - var(--user-padding));
 }
 
-.header-main__logo svg:hover {
+.header-main-logo svg:hover {
     transition: ease-out;
     transition-duration: 0.3s;
     margin: 10px;
