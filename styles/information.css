@@ -1,4 +1,4 @@
-.information__content h2 {
+.information-content h2 {
     font-family:  var(--font-secondary);
     font-size: 48px;
     font-weight: 700;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.information__content h3 {
+.information-content h3 {
     font-family:  var(--font-main);
     font-size: 18px;
     font-weight: 400;
@@ -20,7 +20,7 @@
     margin: 0;
 }
 
-.information__content_oval {
+.information-content__oval {
     display: flex;
     width: 48px;
     height: 48px;
@@ -32,37 +32,37 @@
     justify-content: center;
 }
 
-.information__content_oval svg {
+.information-content__oval svg {
     margin: 0 auto;
 }
 
-.information__content_line {
+.information-bottom-line {
     height: 1px;
     background: #E5EFFF;
     margin-top: 95px;
     width: 100%;
 }
 
-.wrapper-for_information {
+.information_wrapper {
     padding-top: 91px;
     padding-bottom: 80px;
 
 }
 
-.information__content {
+.information-content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.information__content__text {
+.information-content__text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.information__content {
+.information-content {
     height: 200px;
     display: flex;
     flex-wrap: wrap;
