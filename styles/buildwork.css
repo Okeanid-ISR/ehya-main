@@ -1,5 +1,5 @@
 .build-work {
-    padding-bottom: 128px;
+    padding-bottom: 136px;
 }
 
 .build-work-left__second-pic {
@@ -19,7 +19,7 @@
     font-family: var(--font-secondary);
 }
 
-.build-work-text h3 {
+.build-work-text p {
     color: #5A7184;
     line-height: 34px;
     font-size: 18px;

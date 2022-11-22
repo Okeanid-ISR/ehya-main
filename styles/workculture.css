@@ -1,8 +1,4 @@
-.work-culture {
-
-}
-
-.work-culture__text h2 {
+.work-culture-text h2 {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -10,7 +6,7 @@
     text-align: left;
 }
 
-.work-culture__text h3 {
+.work-culture-text p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -20,13 +16,13 @@
     margin-top: 20px;
 }
 
-.work-culture__text ul {
+.work-culture-text ul {
     text-decoration: none;
     list-style: none;
     padding: 0;
 }
 
-.work-culture__text h2 {
+.work-culture-text h2 {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -34,18 +30,18 @@
     text-align: left;
 }
 
-.work-culture__text_list {
+.work-culture-text__first-list {
     display: flex;
     line-height: 32px;
     margin-left: 25px;
     margin-top: 20px;
 }
 
-ul.work-culture__text_second-list {
+ul.work-culture-text__second-list {
     margin-left: 65px;
 }
 
-.work-culture__text_list a:before {
+.work-culture-text__first-list li:before {
     content: '';
     width: 15px;
     height: 10.8px;
@@ -55,7 +51,7 @@ ul.work-culture__text_second-list {
     margin-top: 11px;
 }
 
-.work-culture__text_list a {
+.work-culture-text__first-list a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -76,17 +72,21 @@ ul.work-culture__text_second-list {
 }
 
 .work-culture__picture {
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .work-culture__picture img {
     border-radius: 8px;
 }
 
-.wrapper-for_work-culture {
+.work-culture_wrapper {
     margin-top: 100px;
 }
 
 .work-culture__text {
     margin-top: 71px;
+}
+
+.work-culture-text {
+    margin-top: 83px;
 }
