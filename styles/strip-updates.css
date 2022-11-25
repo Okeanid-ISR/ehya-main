@@ -157,7 +157,7 @@ form#form {
 }
 
 .checkbox:checked + .fake::before {
-    opacity: 1;
+    opacity: 100%;
 }
 
 .fake::before {
@@ -169,11 +169,12 @@ form#form {
     width: 12px;
     height: 17px;
     opacity: 0;
+    color: green;
     transition: 200ms;
 }
 
-#str-form__input:focus~span {
-   background: orange;
+#str-form__input:focus~label {
+    background: orange;
 }
 
 #str-form__input:focus ~ .str-form__input > svg > g  {
