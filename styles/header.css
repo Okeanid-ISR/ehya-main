@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.header-main-menu__hidden-button {
+    display: none;
+}
+
 .header-main {
     flex-shrink: 0;
     background-color: #E7EBF1;
@@ -19,7 +23,7 @@
     align-items: center;
 }
 
-.header-main-menu__link  {
+.header-main-menu__link {
     color: #183B56;
     padding: var(--user-padding);
     font-family: var(--font-main);
@@ -27,7 +31,7 @@
     font-size: 16px;
 }
 
-.header-main-menu__btn  {
+.header-main-menu__btn {
     border: 2px solid #1565D8;
     border-radius: 8px;
     background: #E7EBF1;
@@ -83,8 +87,7 @@ nav.header-main__menu {
     color: blue;
     opacity: 75%;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+
 }
 
 .header-main-menu__btn:hover {
@@ -100,9 +103,91 @@ nav.header-main__menu {
     margin-right: calc(var(--header-margin) - var(--user-padding));
 }
 
-.header-main-logo svg:hover {
-    transition: ease-out;
-    transition-duration: 0.3s;
-    margin: 10px;
-    opacity: 85%;
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .header-main-menu__link {
+        display: none;
+    }
+    .header-main-menu__btn {
+        display: none;
+    }
+    .header-main-menu__hidden-button {
+        display: flex;
+    }
+    .header-main-logo {
+        justify-content: flex-end;
+    }
+    .hero__content {
+        display: flex;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .information-main .information-content {
+        align-items: center;
+    }
+    .information-main .information-content__text {
+        align-items: center;
+    }
+    .build-work .build-work-text {
+         left: 0;
+    }
+    .build-work-left__first-pic {
+        position: relative;
+        left: 30px;
+    }
+
+    .build-work-left__first-pic img {
+        width: 277px;
+        height: 370px;
+    }
+
+    .build-work .build-work-left__second-pic {
+        right: 99px;
+    }
+    .build-work .build-work-left__second-pic img{
+     width: 292px;
+        height: 370px;
+    }
+
+    .work-culture__picture img {
+        width: 315px;
+        height: 410px;
+    }
+    .work-culture .work-culture__picture {
+        margin-top: 184px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .work-culture .work-culture-text {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .work-culture-text__secondary {
+        display: flex;
+        margin-right: 18px;
+    }
+
+    .work-culture-text__main {
+        margin-right: 55px;
+    }
+    .our-blog-advices_disappear {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .footer-main .footer-main-start {
+        align-content: center;
+    }
 }
+
+
