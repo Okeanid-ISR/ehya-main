@@ -1,8 +1,7 @@
 const form = document.getElementById("form")
 const agree = document.getElementById("agree")
 const submit = document.getElementById("submit")
-const stripUpdatesInput = document.getElementById("str-form__input")
-const pic = document.getElementById("pic")
+const stripUpdatesInput = document.getElementById("str-form-input")
 const reg = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 
 
@@ -12,14 +11,10 @@ agree.oninput = function (event) {
         submit.style.opacity = "100%"
         submit.removeAttribute('disabled')
         submit.style.cursor = 'pointer'
-        pic.style.fill = 'blue'
-
-
     } else {
         submit.setAttribute('disabled', false)
         submit.style.cursor = 'not-allowed'
         submit.style.opacity = '70%'
-        pic.style.fill = ''
     }
 }
 

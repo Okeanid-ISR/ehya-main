@@ -1,26 +1,27 @@
 .strip-updates {
     background: #1565D8;
     text-align: center;
+    font-size: 20px;
     padding: 80px 0;
 }
 
-.strip-updates__text h2 {
-    font-family: "HK Grotesk", sans-serif;
+.strip-updates-text__main {
+    font-family: var(--font-secondary);
     font-size: 48px;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 25px;
 }
 
-.strip-updates__text h3 {
+.strip-updates-text__secondary {
     font-size: 18px;
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-main);
     color: #ffffff;
     font-weight: 400;
     margin-bottom: 43px;
 }
 
-.str-form__input input {
+.str-form-input input {
     background: #FFFFFF;
     border-radius: 8px;
     text-align: left;
@@ -40,7 +41,7 @@
     margin: 0 auto;
     padding: 5px 5px 5px 20px;
     flex-direction: row;
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-main);
     font-weight: 600;
     color: #959EAD;
     font-size: 16px;
@@ -58,16 +59,17 @@
     flex-shrink: 0;
     opacity: 70%;
     border-radius: 4px;
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-main);
     font-weight: 500;
     font-size: 18px;
     cursor: not-allowed;
     text-align: center;
 }
 
-.str-form__input {
+.str-form-input {
     cursor: pointer;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -90,13 +92,11 @@
     opacity: 0.92;
 }
 
-.str-form__input input {
+.str-form-input input {
     background: white;
-    width: 100%;
 }
 
 .strip-updates_wrapper {
-
     padding-bottom: 128px;
 }
 
@@ -107,9 +107,11 @@ form#str-form {
 
 .str-form__check label {
     cursor: pointer;
-    margin-left: 10px;
+    display: flex;
+    font-size: 18px;
     color: var(--header-gray);
     font-family: var(--font-secondary);
+    align-items: center;
 }
 
 .strip-updates__text {
@@ -136,49 +138,53 @@ form#form {
     margin: 0 auto;
 }
 
-.checkbox {
+.checkbox-str {
     width: 2.5em;
     height: 1em;
-
 }
 
-.checkbox {
+.checkbox-str {
     display: none;
 }
 
-.fake {
-    display: flex;
-    width: 20px;
-    height: 20px;
-    background: white;
+.agree-str::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
     border-radius: 4px;
-    border: 1px solid black;
-    position: relative;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-right: 8px;
+    flex-shrink: 0;
 }
 
-.checkbox:checked + .fake::before {
-    opacity: 100%;
+.agree-str {
+    display: flex;
+    flex-direction: row;
 }
 
-.fake::before {
-    content: "✓";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 12px;
-    height: 17px;
-    opacity: 0;
-    color: green;
-    transition: 200ms;
+.checkbox-str:checked + .agree-str::before {
+
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24px' height='24px ' fill='black'><path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' /></svg>");
 }
 
-#str-form__input:focus~label {
-    background: orange;
+.str-form-input label {
+    display: flex;
+    align-items: center;
 }
 
-#str-form__input:focus ~ .str-form__input > svg > g  {
-    stroke: red;
+.str-form-input__mail:focus #str-svg {
+    border-color:#f39c12     ;
+    color: #f39c12;
+    stroke: #f39c12;
+    fill: orange;
 }
 
+.str-form-input__mail:focus {
+    fill: orange;
+}
 
+.str-form-input__mail:focus + label {
+    color: blue;
+}
