@@ -108,3 +108,38 @@
 h2.our-blog__theme {
     margin-bottom: 58px;
 }
+
+
+@media screen and (min-width: 768px) {
+    .our-blog-advices_disappear {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .our-blog-advices_disappear {
+        display: flex;
+    }
+
+    .build-work .build-work-left__second-pic img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .build-work .build-work-left__first-pic img {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .our-blog-advices_disappear {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .our-blog-advices_disappear {
+        display: flex;
+    }
+}

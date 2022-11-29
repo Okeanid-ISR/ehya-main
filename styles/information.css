@@ -1,5 +1,5 @@
 .information-content h2 {
-    font-family:  var(--font-secondary);
+    font-family: var(--font-secondary);
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -8,8 +8,8 @@
     text-align: center;
 }
 
-.information-content h3 {
-    font-family:  var(--font-main);
+.information-content p {
+    font-family: var(--font-main);
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -63,4 +63,22 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+    .information-main .information-content {
+        align-items: center;
+    }
+
+    .information-main .information-content__text {
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .information-content p {
+        font-size: 28px;
+    }
+
 }

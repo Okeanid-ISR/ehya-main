@@ -1,5 +1,5 @@
-.footer-main-facilities h3 {
-    font-family: Open Sans, sans-serif;
+.footer-main-facilities .footer-main-facilities__topic {
+    font-family: var(--font-secondary);
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -7,22 +7,13 @@
     color: #183B56;
 }
 
-.footer-main-facilities a {
-    font-family: Open Sans, sans-serif;
+.footer-main-facilities .footer-main-facilities__link {
+    font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 500;
     line-height: 42px;
     text-align: left;
     color: #183B56;
-}
-
-.footer-main-facilities h2 {
-    font-family: Open Sans, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    color: #5A7184;
 }
 
 .footer-main-ovals div {
@@ -48,13 +39,14 @@
     align-items: center;
 }
 
-.footer-main-start__text h2 {
+.footer-main-start__text {
     font-family: var(--font-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     text-align: left;
     color: #5A7184;
+    word-break: inherit;
 }
 
 .footer-main-heart {
@@ -66,7 +58,7 @@
 }
 
 
-.footer-main-heart a {
+.footer-main-heart .footer-main-heart__link {
     text-decoration: none;
     color: #5A7184;
     font-family:var(--font-main);
@@ -114,6 +106,23 @@
     cursor: pointer;
 }
 
-.footer-main-facilities__list a:hover {
+.footer-main-facilities__link {
+    transition: 500ms ;
+}
+
+.footer-main-facilities .footer-main-facilities__link:hover {
     color: blue;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .footer-main .footer-main-start {
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
 }

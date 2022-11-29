@@ -1,4 +1,8 @@
-.work-culture-text h2 {
+.work-culture-text {
+    margin-top: 83px;
+}
+
+.work-culture-text__main {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -6,14 +10,16 @@
     text-align: left;
 }
 
-.work-culture-text p {
+.work-culture-text__secondary {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    width: 65%;
     line-height: 32px;
     text-align: left;
     color: #5A7184;
     margin-top: 20px;
+    word-break: inherit;
 }
 
 .work-culture-text ul {
@@ -22,7 +28,7 @@
     padding: 0;
 }
 
-.work-culture-text h2 {
+.work-culture-text__main {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -30,41 +36,51 @@
     text-align: left;
 }
 
-.work-culture-text__first-list {
+.work-culture-text-list {
     display: flex;
     line-height: 32px;
     margin-left: 25px;
-    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-ul.work-culture-text__second-list {
-    margin-left: 65px;
+.work-culture-text-list__first-list {
+    display: flex;
+    flex-direction: column;
 }
 
-.work-culture-text__first-list li:before {
-    content: '';
+.work-culture-text-list__second-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 69px;
+}
+
+.work-culture-text li:before {
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24px' height='24px' fill='green'><path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' /></svg>");
     width: 15px;
     height: 10.8px;
-    background: url(../images/Iconnew.jpg);
     position: absolute;
     margin-left: -25px;
-    margin-top: 11px;
+    margin-top: 5px;
 }
 
-.work-culture-text__first-list a {
+.work-culture-text-list {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main);
     font-size: 16px;
     font-weight: 400;
+    display: flex;
     letter-spacing: 0px;
     text-align: left;
-    color: #183B56;
+    color: var(--font-color-secondary);
+    margin-top: 30px;
+    justify-content: flex-start;
 }
 
 .work-culture:before {
     content: '';
     display: block;
-    background: #E7EBF1;
+    background: var(--work-culture-background);
     width: 100%;
     height: 536px;
     position: absolute;
@@ -73,6 +89,8 @@ ul.work-culture-text__second-list {
 
 .work-culture__picture {
     margin-top: 110px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .work-culture__picture img {
@@ -83,14 +101,67 @@ ul.work-culture-text__second-list {
     padding-bottom: 100px;
 }
 
-.work-culture__text {
-    margin-top: 71px;
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .work-culture-text__secondary {
+        width: 100%;
+    }
+
+    .work-culture__picture img {
+        width: 315px;
+        height: 410px;
+    }
+    .work-culture .work-culture__picture {
+        margin-top: 184px;
+        display: flex;
+        left: 0;
+        margin-left: 35px;
+        justify-content: flex-start;
+    }
+    .work-culture-text-list {
+        text-decoration: none;
+        font-family: var(--font-main);
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        letter-spacing: 0px;
+        text-align: left;
+        color: var(--font-color-secondary);
+        margin-top: 30px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .work-culture .work-culture-text {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .work-culture-text__secondary {
+        display: flex;
+        margin-right: 18px;
+    }
+
+    .work-culture-text__main {
+        margin-right: 55px;
+    }
+
+    .work-culture-text-list__second-list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
 }
 
-.work-culture-text {
-    margin-top: 83px;
+@media screen and (min-width: 992px) {
+
+    .work-culture__picture {
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.work-culture-text__first-list a:hover {
-    color: blue;
+@media screen and (min-width: 1200px) {
+
 }

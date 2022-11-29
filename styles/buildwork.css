@@ -9,17 +9,22 @@
     z-index: -1;
 }
 
-.build-work-left {
-    display: flex;
+.build-work-left__second-pic img {
+    border-radius: 8px;
 }
 
-.build-work-text h2 {
+.build-work-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.build-work-text .build-work-text__main {
     font-size: 48px;
     margin-top: 25px;
     font-family: var(--font-secondary);
 }
 
-.build-work-text p {
+.build-work-text .build-work-text__secondary {
     color: #5A7184;
     line-height: 34px;
     font-size: 18px;
@@ -32,17 +37,95 @@
     position: relative;
     left: 10px;
     display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     flex-wrap: wrap;
 }
 
-.build-work-
+.build-work-left__first-pic img {
+    border-radius: 8px;
+}
 
 .build-work-left__first-pic {
-    padding: 10px 10px 0px 0px;
+    padding: 14px 10px 0px 0px;
     background: white;
     border-radius: 8px 8px 8px 0;
 }
 
+
+@media screen and (min-width: 768px) {
+    .build-work .build-work-text {
+    }
+
+    .build-work-left__first-pic {
+        position: relative;
+    }
+
+    .build-work-left__first-pic img {
+        width: 285px;
+        height: 370px;
+    }
+
+    .build-work .build-work-left__second-pic {
+        right: 225px;
+        top: 130px;
+    }
+
+    .build-work .build-work-left__second-pic img {
+        width: 305px;
+        height: 370px;
+    }
+
+    .build-work .build-work-text__main {
+        font-size: 36px;
+    }
+
+    .build-work-text__secondary {
+        font-size: 16px;
+    }
+
+    .build-work-left {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .build-work-left__first-pic {
+        padding: 14px 10px 5px 0px;
+    }
+    .build-work {
+        padding-bottom: 136px;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+    .build-work {
+        padding-bottom: 236px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .build-work-left__first-pic img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .build-work .build-work-left__second-pic img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .build-work .build-work-text__main {
+        font-size: 48px;
+    }
+
+    .build-work-left__first-pic {
+        padding: 14px 10px 10px 0px;
+    }
+
+    .build-work .build-work-left__second-pic {
+        right: 130px;
+        top: 130px;
+    }
+}

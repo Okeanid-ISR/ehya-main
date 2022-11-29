@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -7,16 +9,17 @@
     margin-right: auto;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,p {
     margin: 0;
 }
 
 :root {
     --font-main: 'Open Sans', sans-serif;
     --font-secondary: 'HK Grotesk', sans-serif;
-    --blue: #1565D8;
-    --black: #183B56;
+    --font-color-main: #1565D8;
+    --font-color-secondary: #183B56;
     --header-gray: #E7EBF1;
+    --work-culture-background: #E7EBF1;
 }
 
 a {
