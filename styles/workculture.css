@@ -11,13 +11,13 @@
 }
 
 .work-culture-text__secondary {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main);
     font-size: 18px;
     font-weight: 400;
     width: 65%;
     line-height: 32px;
     text-align: left;
-    color: #5A7184;
+    color: var(--font-color-main);
     margin-top: 20px;
     word-break: inherit;
 }
@@ -29,12 +29,19 @@
 }
 
 .work-culture-text__main {
-    font-size: 48px;
+    font-size: 2.9375rem;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
 }
+
+.work-culture-text__main {
+    color: var(--font-color-secondary);
+    font-family: var(--font-secondary);
+    font-size: 2.9375rem;
+}
+
 
 .work-culture-text-list {
     display: flex;

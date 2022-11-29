@@ -4,16 +4,16 @@
     font-weight: 700;
     margin-bottom: 15px;
     text-align: left;
-    color: #183B56;
+    color: var(--font-color-secondary);
 }
 
 .footer-main-facilities .footer-main-facilities__link {
     font-family: var(--font-secondary);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 42px;
     text-align: left;
-    color: #183B56;
+    color: var(--font-color-secondary);
 }
 
 .footer-main-ovals div {
@@ -41,11 +41,11 @@
 
 .footer-main-start__text {
     font-family: var(--font-main);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 28px;
     text-align: left;
-    color: #5A7184;
+    color: var(--font-color-main);
     word-break: inherit;
 }
 
@@ -60,9 +60,9 @@
 
 .footer-main-heart .footer-main-heart__link {
     text-decoration: none;
-    color: #5A7184;
-    font-family:var(--font-main);
-    font-size: 16px;
+    color: var(--font-color-main);
+    font-family: var(--font-main);
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
     margin-top: 24px;
@@ -107,14 +107,12 @@
 }
 
 .footer-main-facilities__link {
-    transition: 500ms ;
+    transition: 500ms;
 }
 
 .footer-main-facilities .footer-main-facilities__link:hover {
-    color: blue;
+    color: var(--links-hover);
 }
-
-
 
 
 @media screen and (min-width: 768px) {

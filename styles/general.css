@@ -16,20 +16,15 @@ h1,h2,h3,h4,p {
 :root {
     --font-main: 'Open Sans', sans-serif;
     --font-secondary: 'HK Grotesk', sans-serif;
-    --font-color-main: #1565D8;
+    --font-color-main: #5A7184;
     --font-color-secondary: #183B56;
     --header-gray: #E7EBF1;
     --work-culture-background: #E7EBF1;
+    --links-hover: blue;
 }
 
 a {
     text-decoration: none;
-}
-
-h2 {
-    font-family: var(--font-secondary);
-    font-size: 48px;
-    color: #183B56;
 }
 
 ul  {

@@ -28,7 +28,7 @@
     padding: var(--user-padding);
     font-family: var(--font-main);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .header-main-menu__btn {
@@ -36,7 +36,7 @@
     border-radius: 8px;
     background: #E7EBF1;
     color: #1565D8;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--font-main);
     padding: 13px 24px 13px 24px;
     font-weight: 700;
@@ -80,7 +80,7 @@ nav.header-main__menu {
 }
 
 .header-main-menu__link:hover {
-    color: blue;
+    color: var(--links-hover);
     opacity: 75%;
     text-decoration: none;
 
