@@ -22,6 +22,7 @@
     font-size: 3rem;
     margin-top: 25px;
     font-family: var(--font-secondary);
+
 }
 
 .build-work-text .build-work-text__secondary {
@@ -33,7 +34,7 @@
     margin-top: 44px;
 }
 
-.build-work-text__main h2 {
+.build-work-text__main {
     color: var(--font-color-secondary);
     font-family: var(--font-secondary);
     font-size: 2.9375rem;

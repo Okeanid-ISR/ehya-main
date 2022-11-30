@@ -1,6 +1,7 @@
 .information-content h2 {
     font-family: var(--font-secondary);
-    font-size: 48px;
+    font-size: 3rem;
+    color: var(--font-color-secondary);
     font-weight: 700;
     line-height: 60px;
     margin: 0;
@@ -66,7 +67,7 @@
 }
 
 @media screen and (min-width: 768px) {
-     .information-content {
+    .information-content {
         align-items: center;
     }
 
@@ -76,10 +77,16 @@
 }
 
 @media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
     .information-content {
         align-items: flex-start;
     }
+
     .information-main .information-content__text {
         align-items: flex-start;
     }
+
 }
