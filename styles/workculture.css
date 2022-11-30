@@ -74,7 +74,7 @@
 .work-culture-text-list {
     text-decoration: none;
     font-family: var(--font-main);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     display: flex;
     letter-spacing: 0px;
@@ -127,7 +127,7 @@
     .work-culture-text-list {
         text-decoration: none;
         font-family: var(--font-main);
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
         display: flex;
         letter-spacing: 0px;

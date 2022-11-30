@@ -87,7 +87,7 @@
     }
 
     .build-work-text__secondary {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .build-work-left {
@@ -123,7 +123,7 @@
     }
 
     .build-work .build-work-text__main {
-        font-size: 48px;
+        font-size: 3rem;
     }
 
     .build-work-left__first-pic {
