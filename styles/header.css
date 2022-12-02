@@ -5,14 +5,7 @@
     height: 100px;
 }
 
-.header-main-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header-main-menu__hidden-button {
+.header-menu__hidden-button {
     display: none;
 }
 
@@ -23,7 +16,7 @@
     align-items: center;
 }
 
-.header-main-menu__link {
+.header-menu__link {
     color: #183B56;
     padding: var(--user-padding);
     font-family: var(--font-main);
@@ -31,7 +24,7 @@
     font-size: 1rem;
 }
 
-.header-main-menu__btn {
+.header-menu__btn {
     border: 2px solid #1565D8;
     border-radius: 8px;
     background: #E7EBF1;
@@ -44,23 +37,18 @@
     transition: 600ms;
 }
 
-.header-main-logo svg {
+.header__logo svg {
     cursor: pointer;
 }
 
-nav.header-main__menu {
+.header-menu {
     display: flex;
     height: 100%;
-    align-items: center;
-}
-
-.header-main-menu {
-    display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.header-main-logo {
+.header__logo {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -79,14 +67,14 @@ nav.header-main__menu {
     min-height: 100vh;
 }
 
-.header-main-menu__link:hover {
+.header-menu__link:hover {
     color: var(--links-hover);
     opacity: 75%;
     text-decoration: none;
 
 }
 
-.header-main-menu__btn:hover {
+.header-menu__btn:hover {
     font-family: var(--font-main);
     cursor: pointer;
     background: #1565D8;
@@ -95,7 +83,7 @@ nav.header-main__menu {
     transition-duration: 0.2s;
 }
 
-.header-main-menu__link {
+.header-menu__link {
     margin-right: calc(var(--header-margin) - var(--user-padding));
     transition: 600ms;
 }
@@ -107,21 +95,7 @@ nav.header-main__menu {
 
 
 @media screen and (min-width: 768px) {
-    .header-main-menu__link {
-        display: none;
-    }
-    .header-main-menu__btn {
-        display: none;
-    }
-    .header-main-menu__hidden-button {
-        display: flex;
-    }
-    .header-main-logo {
-        justify-content: flex-end;
-    }
-    .hero__content {
-        display: flex;
-    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -129,13 +103,5 @@ nav.header-main__menu {
 }
 
 @media screen and (min-width: 1200px) {
-    .header-main-menu__btn {
-        display: flex;
-    }
-    .header-main-menu__link {
-        display: flex;
-    }
-    .header-main-menu__hidden-button {
-        display: none;
-    }
+
 }

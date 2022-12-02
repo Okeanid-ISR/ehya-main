@@ -1,0 +1,19 @@
+.box1 {
+    border-top: 15px solid red;
+    border-bottom: 10px solid red;
+}
+.box2 {
+    border-bottom: 10px solid red;
+    border-top: 10px solid red;
+}
+
+.box3 {
+    border-bottom: 15px solid red;
+    border-top: 5px solid red;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

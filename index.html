@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Ehya-main</title>
     <link href="styles/main.css" rel="stylesheet" type="text/css">
@@ -11,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-2 col-md-2">
-                    <div class="header-main-logo">
+                    <div class="header__logo">
                         <svg width="90" height="28" viewBox="0 0 90 28" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -31,14 +32,14 @@
                     </div>
                 </div>
                 <div class="col-10 col-md-10">
-                    <nav class="header-main-menu">
-                        <a class="header-main-menu__link" href="#">Home</a>
-                        <a class="header-main-menu__link" href="#">Landings</a>
-                        <a class="header-main-menu__link" href="#">Pages</a>
-                        <a class="header-main-menu__link" href="#">Docs</a>
-                        <a class="header-main-menu__link" href="#">Help</a>
-                        <a class="header-main-menu__btn btn_primary">Get it now</a>
-                        <button class="header-main-menu__hidden-button">
+                    <nav class="header-menu">
+                        <a class="header-menu__link" href="#">Home</a>
+                        <a class="header-menu__link" href="#">Landings</a>
+                        <a class="header-menu__link" href="#">Pages</a>
+                        <a class="header-menu__link" href="#">Docs</a>
+                        <a class="header-menu__link" href="#">Help</a>
+                        <a class="header-menu__btn btn_primary">Get it now</a>
+                        <button class="header-menu__hidden-button">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -54,23 +55,23 @@
 
     <main class="content-main">
         <div class="hero">
-            <div class="hero__content">
-                <div class="container">
-                    <div class="hero__text">
-                        <h2>OUR STORY</h2>
-                        <p>EhyaSpace is the collaboration hub that brings the right people, information, and
-                            tools together to get work done. From Fortune 100 companies to corner markets,
-                            millions of people around the world use Slack to connect their teams, unify their
-                            systems, and drive their business forward.</p>
-                    </div>
-                    <div class="hero__picture">
-                        <img src="./images/header-image.jpg">
-                    </div>
+            <div class="container">
+                <div class="hero-text">
+                    <h2 class="hero-text__theme">OUR STORY</h2>
+                    <p class="hero-text__common-info">EhyaSpace is the collaboration hub that brings the right people,
+                        information, and
+                        tools together to get work done. From Fortune 100 companies to corner markets,
+                        millions of people around the world use Slack to connect their teams, unify their
+                        systems, and drive their business forward.</p>
+                </div>
+                <div class="hero__picture">
+                    <img src="./images/header-image.jpg">
                 </div>
             </div>
         </div>
 
-        <div class="information-main information_wrapper">
+
+        <div class="information-main">
             <div class="container">
                 <div class="row">
                     <div class="col-3 col-md-3 col-lg-3">
@@ -82,10 +83,10 @@
                                           fill="#1565D8"/>
                                 </svg>
                             </div>
-                            <div class="information-content__text">
-                                <h2>12M</h2>
-                                <p>Daily Active Users</p>
-                            </div>
+
+                            <h2 class="information-content__statistic">12M</h2>
+                            <p class="information-content__text">Daily Active Users</p>
+
                         </div>
                     </div>
                     <div class="col-3 col-md-3 col-lg-3">
@@ -97,10 +98,10 @@
                                           fill="#1565D8"/>
                                 </svg>
                             </div>
-                            <div class="information-content__text">
-                                <h2>100K</h2>
-                                <p>Paid Customers</p>
-                            </div>
+
+                            <h2 class="information-content__statistic">100K</h2>
+                            <p class="information-content__text">Paid Customers</p>
+
                         </div>
                     </div>
                     <div class="col-3 col-md-3 col-lg-3">
@@ -112,10 +113,10 @@
                                           fill="#1565D8"/>
                                 </svg>
                             </div>
-                            <div class="information-content__text">
-                                <h2>31M+</h2>
-                                <p>Message Rotation </p>
-                            </div>
+
+                            <h2 class="information-content__statistic">31M+</h2>
+                            <p class="information-content__text">Message Rotation </p>
+
                         </div>
                     </div>
                     <div class="col-3 col-md-3 col-lg-3">
@@ -127,10 +128,10 @@
                                           fill="#1565D8"/>
                                 </svg>
                             </div>
-                            <div class="information-content__text">
-                                <h2>123</h2>
-                                <p>Country Users</p>
-                            </div>
+
+                            <h2 class="information-content__statistic">123</h2>
+                            <p class="information-content__text">Country Users</p>
+
                         </div>
 
                     </div>
@@ -157,12 +158,12 @@
                             <h2 class="build-work-text__main">Building the<br>
                                 Work Ecosystem </h2>
                             <p class="build-work-text__secondary">
-                                Connect your conversations with the tools and
-                                services that you use to get the job done. With over
-                                1,500 apps and a robust API, the Slack platform team
-                                works with partners and developers globally to build
-                                apps and integrations that streamline your work,
-                                automate mundane tasks and bring context into your
+                                Connect your conversations with the tools and<br>
+                                services that you use to get the job done. With over<br>
+                                1,500 apps and a robust API, the Slack platform team<br>
+                                works with partners and developers globally to build<br>
+                                apps and integrations that streamline your work,<br>
+                                automate mundane tasks and bring context into your<br>
                                 conversations in Ehya.
                             </p>
                         </div>
@@ -181,17 +182,17 @@
                                 Culture Company’s
                             </h2>
                             <p class="work-culture-text__secondary">
-                                Like Steve Jobs quotes, “Design is not just what
-                                it looks like and feels like. Design is how it works”. We
+                                Like Steve Jobs quotes, “Design is not just what<br>
+                                it looks like and feels like. Design is how it works”. We<br>
                                 always try to make a great output by this culture:
                             </p>
                             <div class="work-culture-text-list">
-                                <ul class="work-culture-text-list__first-list">
+                                <ul class="col-6">
                                     <li><p>Fast Delivery</p></li>
                                     <li><p>Hungry for Explorations</p></li>
                                     <li><p>Teamwork Always</p></li>
                                 </ul>
-                                <ul class="work-culture-text-list__second-list">
+                                <ul class="col-6">
                                     <li><p>Communication is the Key</p></li>
                                     <li><p>Weekly Evaluation </p></li>
                                     <li><p>Update for th Trend</p></li>
@@ -216,12 +217,12 @@
                     <div class="col-4 col-md-6 col-lg-4 col-xl-4">
                         <div class="our-blog-advices">
                             <img src="./images/Baseblog1.jpg">
-                            <div class="our-blog-advices__text">
-                                <p>Analytics</p>
-                                <h3>How great Content helps<br>
-                                    drive success in Marketplace</h3>
-                                <div class="our-blog-advices__arrow">
-                                    <a href="#">READ MORE</a>
+                            <div class="our-blog-text">
+                                <a href="#" class="our-blog-text__topic">Analytics</a>
+                                <a href="#" class="our-blog-text__info">How great Content helps<br>
+                                    drive success in Marketplace</a>
+                                <div class="our-blog-text__arrow">
+                                    <a class="our-blog-text__more-info">READ MORE</a>
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375 2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z"
@@ -234,30 +235,31 @@
                     <div class="col-4 col-md-6 col-lg-4 col-xl-4">
                         <div class="our-blog-advices">
                             <img src="./images/Baseblog2.jpg">
-                            <div class="our-blog-advices__text">
-                                <p>Marketing</p>
-                                <h3>Strossle International AB<br>
-                                    ranked #1 on Deloitte 2018</h3>
-                                <div class="our-blog-advices__arrow">
-                                    <a href="#">READ MORE</a>
-                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375     2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z"
-                                              fill="#1565D8"/>
-                                    </svg>
-                                </div>
+                            <div class="our-blog-text">
+                            <a href="#" class="our-blog-text__topic">Marketing</a>
+                            <a href="#" class="our-blog-text__info">Strossle International AB<br>
+                                ranked #1 on Deloitte 2018</a>
+                            <div class="our-blog-text__arrow">
+                                <a href="#" class="our-blog-text__more-info">READ MORE</a>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375     2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z"
+                                          fill="#1565D8"/>
+                                </svg>
                             </div>
                         </div>
+                        </div>
+
                     </div>
                     <div class="col-4  col-lg-4 col-xl-4">
                         <div class="our-blog-advices our-blog-advices_disappear">
                             <img src="./images/Baseblog3.jpg">
-                            <div class="our-blog-advices__text">
-                                <p>Advertising</p>
-                                <h3>What All Marketers Should<br>
-                                    Know About Brand Safe</h3>
-                                <div class="our-blog-advices__arrow">
-                                    <a href="#">READ MORE</a>
+                            <div class="our-blog-text">
+                                <a href="#" class="our-blog-text__topic">Advertising</a>
+                                <a href="#" class="our-blog-text__info">What All Marketers Should<br>
+                                    Know About Brand Safe</a>
+                                <div class="our-blog-text__arrow">
+                                    <a class="our-blog-text__more-info">READ MORE</a>
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375 2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z"
@@ -283,8 +285,10 @@
                         </div>
                         <form id="form">
                             <div class="str-form">
+
                                 <div class="str-form-input">
-                                    <input class="str-form-input__mail" height="100%" type="email" placeholder="Your Email"
+                                    <input class="str-form-input__mail" height="100%" type="email"
+                                           placeholder="Your Email"
                                            id="str-form-input">
                                     <label for="str-form-input">
                                         <svg class="str-svg" width="16" height="12" viewBox="0 0 16 12" fill="none"
@@ -417,7 +421,7 @@
             <div class="footer-main-heart">
                 <div class="footer-main-heart__square">
                     <div class="footer-main-heart__oval">
-                        <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="26" height="23" viewBox="0 0 26 23" fill="#EBEBEB" xmlns="http://www.w3.org/2000/svg">
                             <path d="M22.6562 2.95312C20.0781 0.75 16.2812 1.17188 13.8906 3.60938L13 4.54688L12.0625 3.60938C9.71875 1.17188 5.875 0.75 3.29688 2.95312C0.34375 5.48438 0.203125 9.98438 2.82812 12.7031L11.9219 22.0781C12.4844 22.6875 13.4688 22.6875 14.0312 22.0781L23.125 12.7031C25.75 9.98438 25.6094 5.48438 22.6562 2.95312Z"
                                   fill="white"/>
                         </svg>
