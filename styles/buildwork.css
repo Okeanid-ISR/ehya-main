@@ -40,6 +40,7 @@
 
 .build-work-left__first-pic img {
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .build-work-left__first-pic {
