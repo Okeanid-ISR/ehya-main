@@ -9,7 +9,7 @@
     margin-right: auto;
 }
 
-h1,h2,h3,h4,p {
+h1, h2, h3, h4, p {
     margin: 0;
 }
 
@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-ul  {
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -36,3 +36,8 @@ ul  {
 body {
     margin: 0;
 }
+
+.preload * {
+    transition: none !important;
+}
+

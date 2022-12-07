@@ -38,6 +38,12 @@ if (form) {
     }
 }
 
+
+document.addEventListener('DOMContentLoaded',function(event){
+    document.body.classList.remove('preload')
+})
+
+
 menu.addEventListener('click', function (event) {
     if(!headerMenu.classList.contains(headerMenuActive)){
         headerMenu.classList.add("header-menu_opened")

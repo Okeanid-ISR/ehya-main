@@ -41,6 +41,13 @@
 .build-work-left__first-pic img {
     border-radius: 8px;
     cursor: pointer;
+    width: 100%;
+}
+
+.build-work-left__second-pic img {
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
 }
 
 .build-work-left__first-pic {
@@ -51,15 +58,46 @@
 }
 
 
-@media screen and (min-width: 768px) {
+
+
+@media screen and (max-width: 575px) {
+
+    .build-work-text {
+        margin-top: 200px;
+    }
+
+    .build-work .build-work-text {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .hero {
+        --height-picture: 370px;
+    }
+
+    .build-work-left__second-pic img {
+        border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+         }
+
+    .build-work-left__first-pic img {
+        border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+    }
+    .build-work {
+        padding-bottom: 136px;
+    }
+    .build-work-left__first-pic {
+        margin-top: 49px;
+    }
+
 
 }
 
-
-@media screen and (min-width: 992px) {
-
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 962px) {
 
 }

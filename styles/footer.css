@@ -109,7 +109,24 @@
     color: var(--links-hover);
 }
 
+.order-last {
+    order: 99;
+}
 
-@media screen and (min-width: 768px) {
-
+@media screen and (max-width: 575px) {
+    .footer-main-start {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 160px;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .footer-main {
+        padding-top: 90px;
+    }
+    .footer-main-facilities {
+        margin-bottom: 50px;
+    }
 }

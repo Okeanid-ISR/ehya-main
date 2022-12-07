@@ -76,11 +76,20 @@
     border-radius: 8px;
 }
 
-@media screen and (min-width: 576px) {
-
+@media screen and (max-width: 575px) {
+    .hero {
+        --height-picture: 300px;
+    }
+    .hero__picture img {
+        width: 100%;
+    }
+    .hero-text__theme {
+        margin-bottom: 10px;
+    }
+    .hero-text__theme {
+        font-size: 2.3rem;
+    }
 }
 
-@media screen and (min-width: 768px) {
 
-}
 

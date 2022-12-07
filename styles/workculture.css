@@ -94,7 +94,18 @@
     box-shadow: 0px 10px 13px -7px #000000, 0px -14px 50px -6px #4D4D4D;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {  .work-culture-text__secondary {
+.work-culture_wrapper {
+    padding-bottom: 140px;
+}
+
+@media screen and (max-width: 575px) {
+    .work-culture__picture img {
+        width: 100%;
+    }
+    .work-culture:before {
+        height: 140%;
+    }
+
 
 }
 
