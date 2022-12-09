@@ -98,6 +98,25 @@
 
 }
 
-@media screen and (min-width: 962px) {
-
+@media screen and (min-width: 576px) {
+    .build-work-text {
+        margin-top: 250px;
+    }
+    .build-work-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .build-work {
+        padding-bottom: 136px;
+    }
+    .build-work-left__second-pic {
+        right: 180px;
+    }
+    .build-work-left__first-pic img {
+        width: auto;
+    }
+    .build-work-left__second-pic img {
+        width: auto;
+    }
 }

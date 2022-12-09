@@ -91,5 +91,10 @@
     }
 }
 
+@media screen and (min-width: 576px) {
+    .hero__picture img {
+        width: 100%;
+    }
+}
 
 

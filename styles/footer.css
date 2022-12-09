@@ -109,9 +109,10 @@
     color: var(--links-hover);
 }
 
-.order-last {
-    order: 99;
+.order-last{
+    order: -1;
 }
+
 
 @media screen and (max-width: 575px) {
     .footer-main-start {
@@ -128,5 +129,24 @@
     }
     .footer-main-facilities {
         margin-bottom: 50px;
+    }
+    .order-last{
+        order: 999;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .order-last {
+        order:99999;
+    }
+    .footer-main-start {
+        margin-top: 50px;
+        align-items: center;
+    }
+    .footer-main-facilities {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

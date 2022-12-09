@@ -112,7 +112,6 @@
 
 
 
-
 @media screen and (max-width: 991px) {
     .header-menu {
         display: none;
@@ -141,12 +140,22 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
 
     .header-menu__btn.btn_primary {
         margin-top: 0;
     }
 
+    .header-menu {
+        display: none;
+    }
+
+    .header-menu__hidden-button {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px) {
     .header-menu {
         display: flex;
     }
@@ -154,4 +163,5 @@
     .header-menu__hidden-button {
         display: none;
     }
+
 }

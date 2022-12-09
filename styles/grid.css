@@ -19,6 +19,10 @@
     padding-right: calc(var(--gutter) / 2);
 }
 
+.order-lg-first {
+    order: 9999999;
+}
+
 @media screen and (max-width: 575px) {
     .container {
         padding-left: 15px;

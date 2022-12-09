@@ -109,8 +109,23 @@
 
 }
 
-    @media screen and (min-width: 992px) {
-
+    @media screen and (min-width: 576px) {
+        .work-culture__picture {
+            display: flex;
+            justify-content: space-around;
+        }
+        .work-culture-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .work-culture-text ul {
+            margin-right: 23px;
+            margin-left: 23px;
+        }
+        .work-culture:before {
+            height: 1020px;
+        }
 
     }
 

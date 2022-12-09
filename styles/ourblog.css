@@ -18,7 +18,7 @@
     color: #183B56;
 }
 
-.our-blog__theme{
+.our-blog__theme {
     color: var(--font-color-secondary);
     font-family: var(--font-secondary);
     font-size: 2.9375rem;
@@ -35,7 +35,7 @@
     color: var(--font-color-secondary);
 }
 
-.our-blog-text__topic{
+.our-blog-text__topic {
     font-family: var(--font-main);
     font-size: 0.9rem;
     font-weight: 700;
@@ -121,6 +121,7 @@
     .our-blog-advices {
         margin-bottom: 35px;
     }
+
     .our-blog-text {
         display: flex;
         flex-wrap: wrap;
@@ -129,12 +130,29 @@
         flex-direction: column;
         justify-content: space-around;
     }
+
     .our-blog-advices {
         margin-bottom: 35px;
         height: 100%;
     }
+
     .our-blog-text {
         align-content: flex-start;
     }
 
 }
+
+@media screen and (min-width: 576px) {
+    .our-blog-advices {
+        height: 100%;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+    .our-blog-text {
+        align-content: flex-start;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
