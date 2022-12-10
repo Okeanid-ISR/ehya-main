@@ -125,16 +125,12 @@
         padding-bottom: 20px;
         align-items: flex-start;
     }
-
     .header-menu {
         display: none;
     }
-
     .header-menu__hidden-button {
         display: flex;
     }
-
-
     .header-menu__btn.btn_primary {
         margin-top: 20px;
     }
@@ -145,11 +141,9 @@
     .header-menu__btn.btn_primary {
         margin-top: 0;
     }
-
     .header-menu {
         display: none;
     }
-
     .header-menu__hidden-button {
         display: flex;
     }

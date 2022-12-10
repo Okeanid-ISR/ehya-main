@@ -133,6 +133,11 @@
     .order-last{
         order: 999;
     }
+    .footer-main-facilities_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -148,5 +153,34 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .footer-main-facilities_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .order-last {
+        order:-1;
+    }
+    .footer-main-start {
+         margin-top: 0;
+        align-items: center;
+    }
+    .footer-main-heart {
+        margin-top: 30px;
+    }
+    .footer-main-facilities {
+        align-items: flex-end;
+    }
+    .footer-main-facilities_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-main-facilities_left {
+        margin-right: 12px;
     }
 }

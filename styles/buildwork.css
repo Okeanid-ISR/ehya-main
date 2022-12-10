@@ -58,8 +58,6 @@
 }
 
 
-
-
 @media screen and (max-width: 575px) {
 
     .build-work-text {
@@ -67,34 +65,48 @@
     }
 
     .build-work .build-work-text {
-        margin-top: 200px;
+        margin-top: 250px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-    }
-    .hero {
-        --height-picture: 370px;
     }
 
     .build-work-left__second-pic img {
         border-radius: 8px;
         cursor: pointer;
         width: 100%;
-         }
+    }
 
     .build-work-left__first-pic img {
         border-radius: 8px;
         cursor: pointer;
         width: 100%;
     }
+
     .build-work {
         padding-bottom: 136px;
     }
+
     .build-work-left__first-pic {
         margin-top: 49px;
     }
 
+    .build-work-left {
+        display: flex;
+        width: 100%;
+    }
+
+    .build-work-left__first-pic img {
+        width: 101%;
+        height: 98%;
+        margin-right: 58px;
+    }
+    .build-work-left__second-pic img {
+        width: 133%;
+        height: 100%;
+        margin-left: 47px;
+    }
 
 }
 
@@ -102,21 +114,63 @@
     .build-work-text {
         margin-top: 250px;
     }
+
     .build-work-text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .build-work {
         padding-bottom: 136px;
     }
+
     .build-work-left__second-pic {
         right: 180px;
     }
+
     .build-work-left__first-pic img {
         width: auto;
     }
+
     .build-work-left__second-pic img {
         width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .build-work-text {
+        margin-top: 80px;
+    }
+
+    .build-work-left__first-pic img {
+        width: 299px;
+        height: 98%;
+    }
+
+    .build-work-left__second-pic img {
+        width: 277px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .build-work-left {
+        display: flex;
+        margin-left: 70px;
+    }
+
+    .build-work-left__second-pic img {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .build-work-left {
+        margin-left: 150px;
+    }
+
+    .build-work {
+        padding-bottom: 236px;
     }
 }

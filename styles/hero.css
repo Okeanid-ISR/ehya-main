@@ -89,6 +89,9 @@
     .hero-text__theme {
         font-size: 2.3rem;
     }
+    .hero {
+        --height: 540px;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -97,4 +100,9 @@
     }
 }
 
-
+@media screen and (min-width: 992px) {
+    .hero__picture img {
+        width: 750px;
+        height: var(--height-picture);
+    }
+}

@@ -55,6 +55,7 @@
         align-items: center;
         margin-bottom: 60px;
     }
+
     .information-bottom-line {
         height: 1px;
         background: #E5EFFF;
@@ -68,6 +69,7 @@
         align-items: center;
         margin-bottom: 60px;
     }
+
     .information-bottom-line {
         height: 1px;
         background: #E5EFFF;
@@ -76,7 +78,9 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 768px) {
+    .hidden_block {
+        display: none;
+    }
 
 }
