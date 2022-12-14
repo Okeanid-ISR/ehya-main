@@ -102,40 +102,41 @@
     .work-culture__picture img {
         width: 100%;
     }
+
     .work-culture:before {
         height: 1080px;
     }
+
     .work-culture-text__achievements {
         margin-left: 20px;
         margin-right: 20px;
     }
 }
 
-    @media screen and (min-width: 576px) {
-        .work-culture__picture {
-            display: flex;
-            justify-content: space-around;
-        }
-        .work-culture-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .work-culture-text .work-culture-text__achievements {
-            margin-right: 23px;
-            margin-left: 23px;
-        }
-        .work-culture:before {
-            height: 1020px;
-        }
-
+@media screen and (min-width: 576px) {
+    .work-culture__picture {
+        display: flex;
+        justify-content: space-around;
     }
 
-    @media screen and (min-width: 768px) {
-
+    .work-culture-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-@media screen and (min-width: 768px){
+    .work-culture-text .work-culture-text__achievements {
+        margin-right: 23px;
+        margin-left: 23px;
+    }
+
+    .work-culture:before {
+        height: 1020px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
     .work-culture__picture img {
         cursor: pointer;
         border-radius: 8px;
@@ -144,10 +145,12 @@
         margin-left: 26px;
         height: 500px;
     }
+
     .work-culture-text__achievements {
         margin-right: 23px;
         margin-left: 0;
     }
+
     .work-culture:before {
         height: 578px;
     }
@@ -161,9 +164,11 @@
         width: 360px;
         height: 500px;
     }
+
     .hidden_block {
         display: unset;
     }
+
     .work-culture-text {
         margin-top: 83px;
         display: flex;

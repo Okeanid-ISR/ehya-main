@@ -142,11 +142,16 @@
 
 }
 
+@media screen and (max-width: 991px) {
+    .hidden_block {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 576px) {
     .our-blog-advices {
-        height: 100%;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+        height: 93%;
+        margin-bottom: 80px;
     }
 
     .our-blog-text {
@@ -158,14 +163,14 @@
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .work-culture__picture img {
         cursor: pointer;
         border-radius: 8px;
         transition: 600ms;
-        width: 110%;
-        margin-left: 25px;
         height: 500px;
+        width: 108%;
+
     }
 }
 

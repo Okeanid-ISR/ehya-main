@@ -6,6 +6,7 @@ const reg = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+
 const menu = document.getElementById("header-button")
 const headerMenu = document.getElementById("header-menu")
 const headerMenuActive = 'header-menu_opened'
+const scrollLock = 'scroll-lock'
 
 if (form) {
     agree.oninput = function (event) {
@@ -39,15 +40,18 @@ if (form) {
 }
 
 
-document.addEventListener('DOMContentLoaded',function(event){
+document.addEventListener('DOMContentLoaded', function (event) {
     document.body.classList.remove('preload')
 })
 
 
 menu.addEventListener('click', function (event) {
-    if(!headerMenu.classList.contains(headerMenuActive)){
+    if (!headerMenu.classList.contains(headerMenuActive)) {
         headerMenu.classList.add("header-menu_opened")
-    }else{
+        document.body.classList.add(scrollLock)
+    } else {
         headerMenu.classList.remove("header-menu_opened")
+        document.body.classList.remove(scrollLock)
+
     }
-        })
+})

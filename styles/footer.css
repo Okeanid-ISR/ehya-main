@@ -138,6 +138,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .footer-main-start__text {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -182,5 +185,11 @@
     }
     .footer-main-facilities_left {
         margin-right: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+   .footer-main .footer-main-start {
+        align-items: start;
     }
 }

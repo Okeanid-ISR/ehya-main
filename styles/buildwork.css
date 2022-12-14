@@ -173,4 +173,7 @@
     .build-work {
         padding-bottom: 236px;
     }
+    .build-work-left__first-pic img {
+        width: 333px;
+    }
 }

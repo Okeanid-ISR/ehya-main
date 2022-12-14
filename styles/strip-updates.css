@@ -286,4 +286,7 @@ form#form {
          border-radius: unset;
          border: unset;
     }
+    .str-form {
+        padding: 10px 6px 10px 10px;
+    }
 }

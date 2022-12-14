@@ -29,9 +29,9 @@
     font-family: var(--font-main);
     padding: 13px 24px 13px 24px;
     font-weight: 700;
-    margin-top: 20px;
     cursor: pointer;
     transition: 600ms;
+    display: flex;
 }
 
 .header__logo svg {
@@ -110,29 +110,71 @@
     visibility: visible;
 }
 
+.header-main__container {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    background: var(--header-gray);
+    width: 100%;
+    margin: 0 auto;
+}
 
+header a {
+    display: inline-block;
+}
 
 @media screen and (max-width: 991px) {
+
+    .header-btn {
+        margin-top: 20px;
+    }
+
+    .header-main__container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 64px;
+        z-index: 9999;
+    }
+
     .header-menu {
         display: none;
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 0;
         left: 0;
         width: 100%;
         background: var(--header-gray);
+        min-height: 100vh;
         flex-direction: column;
         padding-left: 40px;
         padding-bottom: 20px;
         align-items: flex-start;
+        overflow: auto;
     }
-    .header-menu {
-        display: none;
-    }
+
     .header-menu__hidden-button {
         display: flex;
+        z-index: 2;
     }
+
     .header-menu__btn.btn_primary {
         margin-top: 20px;
+    }
+
+    .header-menu_opened {
+        display: flex;
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+        margin-top: 60px;
+        overflow: auto;
+    }
+
+    .header-menu__link {
+        width: 90%;
+        border-bottom: 1px solid #DDDDDD;
+        overflow: auto;
     }
 }
 
@@ -141,12 +183,20 @@
     .header-menu__btn.btn_primary {
         margin-top: 0;
     }
-    .header-menu {
-        display: none;
-    }
+
     .header-menu__hidden-button {
         display: flex;
     }
+
+    .header-menu_opened {
+        display: flex;
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+        margin-top: 63px;
+
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -156,6 +206,13 @@
 
     .header-menu__hidden-button {
         display: none;
+    }
+
+    .header-menu {
+        display: flex;
+        height: 64px;
+        align-items: center;
+
     }
 
 }
