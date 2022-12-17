@@ -2,18 +2,18 @@
     --header-margin: 40px;
     --user-padding: 10px;
     flex-shrink: 0;
-    height: 100px;
+    min-height: 64px;
 }
 
 .header-main {
     flex-shrink: 0;
-    background-color: #E7EBF1;
+    background-color: #e7ebf1;
     display: flex;
     align-items: center;
 }
 
 .header-menu__link {
-    color: #183B56;
+    color: #183b56;
     padding: var(--user-padding);
     font-family: var(--font-main);
     font-weight: 600;
@@ -21,10 +21,10 @@
 }
 
 .header-menu__btn {
-    border: 2px solid #1565D8;
+    border: 2px solid #1565d8;
     border-radius: 8px;
-    background: #E7EBF1;
-    color: #1565D8;
+    background: #e7ebf1;
+    color: #1565d8;
     font-size: 1rem;
     font-family: var(--font-main);
     padding: 13px 24px 13px 24px;
@@ -59,13 +59,12 @@
     color: var(--links-hover);
     opacity: 75%;
     text-decoration: none;
-
 }
 
 .header-menu__btn:hover {
     font-family: var(--font-main);
     cursor: pointer;
-    background: #1565D8;
+    background: #1565d8;
     color: white;
     transition: ease-in;
     transition-duration: 0.2s;
@@ -81,15 +80,13 @@
     justify-content: flex-end;
 }
 
-
 .header-main {
     flex-shrink: 0;
-    background-color: #E7EBF1;
+    background-color: #e7ebf1;
     display: flex;
     position: relative;
     align-items: center;
 }
-
 
 .header-menu__btn.btn_primary {
     margin-top: 0;
@@ -101,13 +98,6 @@
 
 .header-menu__hidden-button {
     display: none;
-}
-
-.header-menu_opened {
-    display: flex;
-    opacity: 1;
-    transform: translateX(0);
-    visibility: visible;
 }
 
 .header-main__container {
@@ -124,7 +114,6 @@ header a {
 }
 
 @media screen and (max-width: 991px) {
-
     .header-btn {
         margin-top: 20px;
     }
@@ -147,7 +136,7 @@ header a {
         background: var(--header-gray);
         min-height: 100vh;
         flex-direction: column;
-        padding-left: 40px;
+        padding-left: 20px;
         padding-bottom: 20px;
         align-items: flex-start;
         overflow: auto;
@@ -173,33 +162,22 @@ header a {
 
     .header-menu__link {
         width: 90%;
-        border-bottom: 1px solid #DDDDDD;
+        border-bottom: 1px solid #dddddd;
         overflow: auto;
     }
 }
 
 @media screen and (min-width: 576px) {
-
-    .header-menu__btn.btn_primary {
-        margin-top: 0;
-    }
-
     .header-menu__hidden-button {
         display: flex;
     }
-
-    .header-menu_opened {
-        display: flex;
-        opacity: 1;
-        transform: translateX(0);
-        visibility: visible;
-        margin-top: 63px;
-
-    }
-
 }
 
 @media screen and (min-width: 992px) {
+    .header-main__container {
+        height: 100px;
+    }
+
     .header-menu {
         display: flex;
     }
@@ -210,9 +188,10 @@ header a {
 
     .header-menu {
         display: flex;
-        height: 64px;
         align-items: center;
-
     }
 
+    .header-menu__btn.btn_primary {
+        margin-top: 0;
+    }
 }
