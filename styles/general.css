@@ -35,6 +35,24 @@ ul {
 
 body {
     margin: 0;
+    line-height: 1.7;
+}
+
+.btn {
+    font-family: var(--font-main);
+    background: none;
+    border: 2px solid currentColor;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #1565D8;
+    display: inline-flex;
+    padding: 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 48px;
+    align-items: center;
 }
 
 .preload * {
@@ -45,3 +63,14 @@ body {
     overflow: hidden !important;
 }
 
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}

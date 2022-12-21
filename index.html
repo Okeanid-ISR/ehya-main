@@ -38,17 +38,15 @@
                         <div class="header-main-content" id="header-menu_scroll">
                             <nav class="header-menu " id="header-menu">
                                 <div class="container">
-                                    <div class="row">
-                                        <a class="header-menu__link" href="#">Home</a>
-                                        <a class="header-menu__link" href="#">Landings</a>
-                                        <a class="header-menu__link" href="#">Pages</a>
-                                        <a class="header-menu__link" href="#">Docs</a>
-                                        <a class="header-menu__link" href="#">Help</a>
-                                        <div class="header-btn">
-                                            <a class="header-menu__btn btn_primary" href="#">Get it now</a>
-                                        </div>
-                                    </div>
+
+                                    <a class="header-menu__link" href="#">Home</a>
+                                    <a class="header-menu__link" href="#">Landings</a>
+                                    <a class="header-menu__link" href="#">Pages</a>
+                                    <a class="header-menu__link" href="#">Docs</a>
+                                    <a class="header-menu__link" href="#">Help</a>
+                                    <a class="btn btn_primary" href="#">Get it now</a>
                                 </div>
+
 
                             </nav>
                             <button class="header-menu__hidden-button" id="header-button">
@@ -205,7 +203,7 @@
         <div class="work-culture work-culture_wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-7 col-lg-7">
+                    <div class="col-12 col-md-6">
                         <div class="work-culture-text">
                             <h2 class="work-culture-text__main">
                                 Our Work<br>
@@ -217,20 +215,38 @@
                                 always try to make a great output by this culture:
                             </p>
                             <div class="work-culture-text-list">
-                                <ul class="work-culture-text__achievements col-12 col-md-7 col-lg-5">
-                                    <li><p>Fast Delivery</p></li>
-                                    <li><p>Hungry for Explorations</p></li>
-                                    <li><p>Teamwork Always</p></li>
-                                </ul>
-                                <ul class="work-culture-text__achievements col-12 col-md-5 col-lg-7">
-                                    <li><p>Communication is the Key</p></li>
-                                    <li><p>Weekly Evaluation </p></li>
-                                    <li><p>Update for th Trend</p></li>
-                                </ul>
+                                <div class="row">
+                                    <div class="col-6 col-md-6">
+                                        <ul class="base-list">
+                                            <li class="base-list__item">
+                                                Fast Delivery
+                                            </li>
+                                            <li class="base-list__item">
+                                                Hungry for Explorations
+                                            </li>
+                                            <li class="base-list__item">
+                                                Teamwork Always
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                        <ul class="base-list">
+                                            <li class="base-list__item">
+                                                Communication is the Key
+                                            </li>
+                                            <li class="base-list__item">
+                                                Weekly Evaluation
+                                            </li>
+                                            <li class="base-list__item">
+                                                Update for th Trend
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 col-lg-5">
+                    <div class="col-12 col-md-6">
                         <div class="work-culture-center">
                             <img class="work-culture-center-picture" src="./images/Imageworkculture.jpg">
                         </div>
@@ -244,16 +260,19 @@
             <div class="container">
                 <h2 class="our-blog__theme">Read Our Blog</h2>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="our-blog-advices">
-                            <img src="./images/Baseblog1.jpg">
+                            <a class="our-blog-advices-image-link" href="#">
+                                <img class="our-blog-advices-image-link__image" src="./images/Baseblog1.jpg">
+                            </a>
                             <div class="our-blog-text">
                                 <a href="#" class="our-blog-text__topic">Analytics</a>
                                 <a href="#" class="our-blog-text__info">How great Content helps<br>
                                     drive success in Marketplace</a>
                                 <div class="our-blog-text-arrow">
-                                    <a class="our-blog-text-arrow__more-info">READ MORE</a>
-                                    <svg class="our-blog-text-arrow__svg" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    <a class="our-blog-text-arrow__more-info" href="#">READ MORE</a>
+                                    <svg class="our-blog-text-arrow__svg" width="14" height="14" viewBox="0 0 14 14"
+                                         fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375 2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z"
                                               fill="#1565D8"/>
@@ -262,16 +281,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="col-12 col-md-6 col-lg-4 ">
                         <div class="our-blog-advices">
-                            <img src="./images/Baseblog2.jpg">
+                            <a class="our-blog-advices-image-link" href="#">
+                                <img class="our-blog-advices-image-link__image" src="./images/Baseblog2.jpg">
+                            </a>
                             <div class="our-blog-text">
                                 <a href="#" class="our-blog-text__topic">Marketing</a>
                                 <a href="#" class="our-blog-text__info">Strossle International AB<br>
                                     ranked #1 on Deloitte 2018</a>
                                 <div class="our-blog-text-arrow">
                                     <a href="#" class="our-blog-text-arrow__more-info">READ MORE</a>
-                                    <svg class="our-blog-text-arrow__svg" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    <svg class="our-blog-text-arrow__svg" width="14" height="14" viewBox="0 0 14 14"
+                                         fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375     2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z"
                                               fill="#1565D8"/>
@@ -283,14 +305,17 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xl-4 hidden_block">
                         <div class="our-blog-advices ">
-                            <img class="our-blog-advices__img" src="./images/Baseblog3.jpg">
+                            <a class="our-blog-advices-image-link" href="#">
+                                <img class="our-blog-advices-image-link__image" src="./images/Baseblog3.jpg">
+                            </a>
                             <div class="our-blog-text">
                                 <a href="#" class="our-blog-text__topic">Advertising</a>
                                 <a href="#" class="our-blog-text__info">What All Marketers Should<br>
                                     Know About Brand Safe</a>
                                 <div class="our-blog-text-arrow">
-                                    <a class="our-blog-text-arrow__more-info">READ MORE</a>
-                                    <svg class="our-blog-text-arrow__svg" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    <a class="our-blog-text-arrow__more-info" href="#">READ MORE</a>
+                                    <svg class="our-blog-text-arrow__svg" width="14" height="14" viewBox="0 0 14 14"
+                                         fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375 2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z"
                                               fill="#1565D8"/>
@@ -329,14 +354,15 @@
                                     </label>
                                 </div>
                                 <div class="str-form__btn">
-                                    <button class="submit btn_primary" type="submit" id="submit" disabled="disabled">
+                                    <button class="btn btn_primary" type="submit" id="submit" disabled="disabled">
                                         Submit
                                     </button>
                                 </div>
                             </div>
                             <div class="str-form__check">
                                 <input class="checkbox-str" type="checkbox" id="agree">
-                                <label class="agree-str" for="agree"><p>Accept all rules</p></label>
+                                <label class="agree-str" for="agree"><p style="cursor:pointer">Accept all rules</p>
+                                </label>
                             </div>
                         </form>
                     </div>
@@ -348,7 +374,7 @@
     <div class="footer-main">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 order-last col-lg-4">
+                <div class="col-md-4 order-last order-md-first col-lg-3">
                     <div class="footer-main-start">
                         <div class="footer-main-start__ehya">
                             <svg width="90" height="28" viewBox="0 0 90 28" fill="none"
@@ -403,68 +429,72 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-8 col-lg-9">
+                    <div class="row">
 
-                <div class="col-6 col-md-4 col-lg-2">
-                    <ul class="footer-main-facilities">
-                        <div class="footer-main-facilities_wrapper">
 
-                            <li><h3 class="footer-main-facilities__topic">Product</h3></li>
-                            <li><a class="footer-main-facilities__link" href="#">Landingpage</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Features</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Documentation</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Referral Program</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Pricing</a></li>
+                        <div class="col-6  col-lg-3">
+                            <ul class="footer-main-facilities">
+                                <div class="footer-main-facilities_wrapper">
+
+                                    <li><h3 class="footer-main-facilities__topic">Product</h3></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Landingpage</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Features</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Documentation</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Referral Program</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Pricing</a></li>
+                                </div>
+                            </ul>
                         </div>
-                    </ul>
-                </div>
 
 
-                <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6  col-lg-3">
 
-                    <ul class="footer-main-facilities">
-                        <div class="footer-main-facilities_wrapper">
+                            <ul class="footer-main-facilities">
+                                <div class="footer-main-facilities_wrapper">
 
-                            <li><h3 class="footer-main-facilities__topic">Services</h3></li>
-                            <li><a class="footer-main-facilities__link" href="#">Documentation</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Design</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Themes</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Illustrations</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">UI Kit</a></li>
+                                    <li><h3 class="footer-main-facilities__topic">Services</h3></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Documentation</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Design</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Themes</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Illustrations</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">UI Kit</a></li>
+                                </div>
+                            </ul>
+
                         </div>
-                    </ul>
-
-                </div>
 
 
-                <div class="col-6 col-md-8 col-lg-2">
+                        <div class="col-6  col-lg-3">
 
-                    <ul class="footer-main-facilities footer-main-facilities_left">
-                        <div class="footer-main-facilities_wrapper">
-                            <li><h3 class="footer-main-facilities__topic">Company</h3></li>
-                            <li><a class="footer-main-facilities__link" href="#">About</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Terms</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Privacy Policy</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Careers</a></li>
+                            <ul class="footer-main-facilities footer-main-facilities_left">
+                                <div class="footer-main-facilities_wrapper">
+                                    <li><h3 class="footer-main-facilities__topic">Company</h3></li>
+                                    <li><a class="footer-main-facilities__link" href="#">About</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Terms</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Privacy Policy</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Careers</a></li>
+                                </div>
+                            </ul>
+
                         </div>
-                    </ul>
-
-                </div>
 
 
-                <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6  col-lg-3">
 
-                    <ul class="footer-main-facilities">
-                        <div class="footer-main-facilities_wrapper">
-                            <li><h3 class="footer-main-facilities__topic">More</h3></li>
-                            <li><a class="footer-main-facilities__link" href="#">Documentation</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">License</a></li>
-                            <li><a class="footer-main-facilities__link" href="#">Changelog</a></li>
+                            <ul class="footer-main-facilities">
+                                <div class="footer-main-facilities_wrapper">
+                                    <li><h3 class="footer-main-facilities__topic">More</h3></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Documentation</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">License</a></li>
+                                    <li><a class="footer-main-facilities__link" href="#">Changelog</a></li>
+                                </div>
+                            </ul>
+
                         </div>
-                    </ul>
 
+                    </div>
                 </div>
-
-
             </div>
         </div>
         <div class="footer-main-heart">
