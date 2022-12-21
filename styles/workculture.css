@@ -81,12 +81,6 @@
         justify-content: center;
     }
 
-    .work-culture-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .work-culture:before {
         height: 1020px;
     }
@@ -100,10 +94,6 @@
         width: 100%;
         height: 500px;
         margin-top: 150px;
-    }
-
-    .work-culture-text .work-culture-text__achievements {
-        margin-left: 0px;
     }
 
     .work-culture:before {
@@ -128,16 +118,9 @@
         height: 500px;
     }
 
-    .hidden_block {
-        display: unset;
-    }
-
-    .work-culture-text {
-        margin-top: 83px;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
+    /* .hidden_block {
+        display: none;
+    } */
 
     .work-culture-center-picture {
         width: 100%;
