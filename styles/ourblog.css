@@ -8,16 +8,6 @@
     justify-content: space-between;
 }
 
-.our-blog span {
-    font-family: var(--font-secondary);
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
-    color: #183B56;
-}
-
 .our-blog__theme {
     color: var(--font-color-secondary);
     font-family: var(--font-secondary);
@@ -45,7 +35,12 @@
     color: #959EAD;
 }
 
-.our-blog-text__more-info {
+.our-blog-text-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.our-blog-text-arrow__more-info {
     text-decoration: none;
     font-family: var(--font-main);
     font-size: 0.875rem;
@@ -56,7 +51,7 @@
     color: #1565D8;
 }
 
-.our-blog-advices img {
+.our-blog-advices__img {
     cursor: pointer;
     border-radius: 8px;
 }
@@ -69,12 +64,6 @@
     align-content: space-around;
 }
 
-.our-blog-text__arrow img {
-    margin-left: 14px;
-    margin-top: 3px;
-}
-
-
 .our-blog_wrapper {
     padding-bottom: 96px;
 }
@@ -86,12 +75,12 @@
     cursor: pointer;
 }
 
-.our-blog-text__arrow svg {
+.our-blog-text-arrow__svg {
     --margin-for-arrow: 10px;
     margin-left: var(--margin-for-arrow);
 }
 
-.our-blog-text__arrow:hover {
+.our-blog-text-arrow:hover {
     opacity: 90%;
     color: var(--links-hover);
     transition: ease-out;
@@ -99,7 +88,7 @@
     margin-left: 10px;
 }
 
-.our-blog-text__arrow svg {
+.our-blog-text-arrow__svg{
     transition: all 0.3s;
 }
 
@@ -163,14 +152,4 @@
 
 }
 
-@media screen and (min-width: 768px) {
-    .work-culture__picture img {
-        cursor: pointer;
-        border-radius: 8px;
-        transition: 600ms;
-        height: 500px;
-        width: 108%;
-
-    }
-}
 

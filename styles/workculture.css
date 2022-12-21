@@ -137,6 +137,7 @@
 
 }
 
+
 @media screen and (min-width: 768px) {
     .work-culture-center-picture  {
         cursor: pointer;
@@ -161,6 +162,13 @@
     }
     .work-culture-text__achievements {
         margin-left: 0px;
+    }
+    .work-culture-center-picture {
+        cursor: pointer;
+        border-radius: 8px;
+        transition: 600ms;
+        height: 500px;
+        width: 117%;
     }
 }
 
