@@ -6,6 +6,10 @@
     color: var(--font-color-secondary);
 }
 
+.base-list > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
 .base-list__item {
     position: relative;
     padding-left: 25px;
