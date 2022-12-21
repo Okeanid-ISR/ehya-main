@@ -25,7 +25,7 @@ if (form) {
 
     submit.onclick = function (event) {
         event.preventDefault();
-
+headerMenu.style.display 
         if (!validate(reg, stripUpdatesInput.value)) {
 
             return;
