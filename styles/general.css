@@ -9,17 +9,21 @@
     margin-right: auto;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
     margin: 0;
 }
 
 :root {
     --font-main: 'Open Sans', sans-serif;
     --font-secondary: 'HK Grotesk', sans-serif;
-    --font-color-main: #5A7184;
-    --font-color-secondary: #183B56;
-    --header-gray: #E7EBF1;
-    --work-culture-background: #E7EBF1;
+    --font-color-main: #5a7184;
+    --font-color-secondary: #183b56;
+    --header-gray: #e7ebf1;
+    --work-culture-background: #e7ebf1;
     --links-hover: blue;
 }
 
@@ -35,6 +39,7 @@ ul {
 
 body {
     margin: 0;
+    line-height: 1.6; // 140%
 }
 
 .preload * {
@@ -44,4 +49,3 @@ body {
 .scroll-lock {
     overflow: hidden !important;
 }
-
