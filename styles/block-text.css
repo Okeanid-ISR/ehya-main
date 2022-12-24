@@ -15,6 +15,11 @@
     color: var(--font-color-secondary);
 }
 
+.block-text_reverse,
+.block-text_reverse > * {
+    color: #fff !important;
+}
+
 @media screen and (min-width: 768px) {
     .block-text {
         font-size: 20px;
