@@ -1,5 +1,5 @@
 .our-blog-advices {
-    background: #F9FBFE;
+    background: #f9fbfe;
     padding: 10px;
     height: 438px;
     display: flex;
@@ -7,13 +7,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-.our-blog__theme {
-    color: var(--font-color-secondary);
-    font-family: var(--font-secondary);
-    font-size: 2.9375rem;
-}
-
 
 .our-blog-text__info {
     font-family: var(--font-secondary);
@@ -32,7 +25,7 @@
     line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
-    color: #959EAD;
+    color: #959ead;
 }
 
 .our-blog-text-arrow {
@@ -48,7 +41,7 @@
     line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
-    color: #1565D8;
+    color: #1565d8;
 }
 
 .our-blog-advices__img {
@@ -88,7 +81,7 @@
     margin-left: 10px;
 }
 
-.our-blog-text-arrow__svg{
+.our-blog-text-arrow__svg {
     transition: all 0.3s;
 }
 
@@ -98,13 +91,7 @@
 
 .our-blog-advices {
     transition: all 0.5s;
-
 }
-
-.our-blog__theme {
-    margin-bottom: 58px;
-}
-
 
 @media screen and (max-width: 575px) {
     .our-blog-advices {
@@ -128,7 +115,6 @@
     .our-blog-text {
         align-content: flex-start;
     }
-
 }
 
 @media screen and (max-width: 991px) {
@@ -149,7 +135,4 @@
         display: flex;
         justify-content: space-around;
     }
-
 }
-
-

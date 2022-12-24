@@ -1,28 +1,12 @@
 .strip-updates {
-    background: #1565D8;
+    background: #1565d8;
     text-align: center;
     font-size: 1.25rem;
     padding: 80px 0;
 }
 
-.strip-updates-text__main {
-    font-family: var(--font-secondary);
-    font-size: 3rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 25px;
-}
-
-.strip-updates-text__secondary {
-    font-size: 1.125rem;
-    font-family: var(--font-main);
-    color: #ffffff;
-    font-weight: 400;
-    margin-bottom: 43px;
-}
-
 .str-form-input__mail {
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 8px;
     text-align: left;
     text-decoration: none;
@@ -35,7 +19,7 @@
 
 .str-form {
     display: flex;
-    background: #FFFFFF;
+    background: #ffffff;
     width: 430px;
     height: 60px;
     margin: 0 auto;
@@ -43,7 +27,7 @@
     flex-direction: row;
     font-family: var(--font-main);
     font-weight: 600;
-    color: #959EAD;
+    color: #959ead;
     font-size: 1rem;
     border-radius: 8px;
     align-items: center;
@@ -53,7 +37,7 @@
 .str-form__btn .submit {
     padding: 10px 28px 15px 28px;
     width: 100%;
-    background: #1565D8;
+    background: #1565d8;
     color: #ffffff;
     border-style: none;
     flex-shrink: 0;
@@ -91,7 +75,7 @@
     opacity: 0.92;
 }
 
-.str-form-input__mail{
+.str-form-input__mail {
     background: white;
 }
 
@@ -111,7 +95,6 @@ form#str-form {
     color: var(--header-gray);
     font-family: var(--font-secondary);
     align-items: flex-start;
-
 }
 
 .strip-updates__text {
@@ -165,7 +148,6 @@ form#form {
 }
 
 .checkbox-str:checked + .agree-str::before {
-
     content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10px' height='8px' fill='black'><path d='M3.39843 7.82422L0.136718 4.58204C0.0455727 4.49089 0 4.3737 0 4.23048C0 4.08725 0.0455727 3.97006 0.136718 3.87891L0.859373 3.17579C0.950519 3.07162 1.06445 3.01955 1.20117 3.01955C1.33789 3.01955 1.45833 3.07162 1.5625 3.17579L3.74999 5.36329L8.43748 0.675796C8.54165 0.57163 8.66209 0.519547 8.79881 0.519547C8.93553 0.519547 9.04946 0.57163 9.1406 0.675796L9.86326 1.37892C9.9544 1.47007 9.99998 1.58725 9.99998 1.73048C9.99998 1.87371 9.9544 1.9909 9.86326 2.08204L4.10155 7.82422C4.01041 7.92838 3.89322 7.98047 3.74999 7.98047C3.60676 7.98047 3.48958 7.92838 3.39843 7.82422Z'> </path> </svg>");
 }
 
@@ -190,7 +172,7 @@ form#form {
 @media screen and (max-width: 575px) {
     .str-form {
         display: flex;
-        background: #FFFFFF;
+        background: #ffffff;
         width: 100%;
         height: 126px;
         margin: 0 auto;
@@ -198,7 +180,7 @@ form#form {
         flex-direction: column;
         font-family: var(--font-main);
         font-weight: 600;
-        color: #959EAD;
+        color: #959ead;
         font-size: 1rem;
         border-radius: 8px;
         align-items: center;
@@ -212,7 +194,7 @@ form#form {
 
     .str-form-input {
         border-radius: 6px;
-        border: 1px solid #C3CAD9;
+        border: 1px solid #c3cad9;
     }
 
     .str-form__check {
@@ -228,7 +210,7 @@ form#form {
 @media screen and (min-width: 576px) {
     .str-form {
         display: flex;
-        background: #FFFFFF;
+        background: #ffffff;
         width: 100%;
         height: 126px;
         margin: 0 auto;
@@ -236,7 +218,7 @@ form#form {
         flex-direction: column;
         font-family: var(--font-main);
         font-weight: 600;
-        color: #959EAD;
+        color: #959ead;
         font-size: 1rem;
         border-radius: 8px;
         align-items: center;
@@ -250,7 +232,7 @@ form#form {
 
     .str-form-input {
         border-radius: 6px;
-        border: 1px solid #C3CAD9;
+        border: 1px solid #c3cad9;
     }
 
     .str-form__check {
@@ -271,7 +253,6 @@ form#form {
     .str-form {
         height: 60px;
         flex-direction: row;
-
     }
 
     .str-form__btn {
@@ -284,8 +265,8 @@ form#form {
         display: flex;
     }
     .str-form-input {
-         border-radius: unset;
-         border: unset;
+        border-radius: unset;
+        border: unset;
     }
     .str-form {
         padding: 10px 6px 10px 10px;

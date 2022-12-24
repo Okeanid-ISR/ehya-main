@@ -39,7 +39,7 @@ ul {
 
 body {
     margin: 0;
-    line-height: 1.6; // 140%
+    line-height: 1.6; /* 160% */
 }
 
 .preload * {

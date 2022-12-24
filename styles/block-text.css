@@ -1,0 +1,37 @@
+.block-text {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--font-color-main);
+}
+
+.block-text > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.block-text__title {
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: var(--font-color-secondary);
+}
+
+@media screen and (min-width: 768px) {
+    .block-text {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+
+    .block-text__title {
+        font-size: 48px;
+    }
+
+    .block-text > *:not(:last-child) {
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .block-text > *:not(:last-child) {
+        margin-bottom: 24px;
+    }
+}
