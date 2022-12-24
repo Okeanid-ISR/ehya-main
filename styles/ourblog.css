@@ -141,11 +141,11 @@
     .our-blog-advices {
         margin-bottom: 35px;
         height: 100%;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .our-blog-text {
-        align-content: flex-start;
+        align-items: center;
     }
 
 }
@@ -177,7 +177,7 @@
         flex-wrap: wrap;
         height: 100%;
         padding-left: 15px;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: flex-start;
     }
     .our-blog-advices {
