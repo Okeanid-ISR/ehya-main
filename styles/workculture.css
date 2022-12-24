@@ -1,5 +1,6 @@
 .work-culture {
     background: var(--work-culture-background);
+    padding: 80px 0;
 }
 
 .work-culture-text__main {
@@ -9,18 +10,25 @@
     text-align: left;
 }
 
-.work-culture-center-picture {
-    display: block;
-    width: 100%;
+.work-culture-center {
+    position: relative;
 }
 
-.work-culture-center-picture {
+.work-culture-center__picture {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.work-culture-center__picture {
     cursor: pointer;
     border-radius: 8px;
     transition: 600ms;
 }
 
-.work-culture-center-picture:hover {
+.work-culture-center__picture:hover {
     transform: scale(1.015);
     box-shadow: 0px 10px 13px -7px #000000, 0px -14px 50px -6px #4d4d4d;
 }
