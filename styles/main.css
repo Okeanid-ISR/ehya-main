@@ -3,16 +3,16 @@
 
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 
-@import "general.css";
-@import "grid.css";
-@import "header.css";
-@import "hero.css";
-@import "information.css";
-@import 'buildwork.css';
-@import "workculture.css";
-@import "ourblog.css";
-@import "strip-updates.css";
-@import "footer.css";
-@import "base-list.css";
-@import "page.css";
-@import "order.css";
+@import "./tools/general.css";
+@import "./tools/grid.css";
+@import "./blocks/header.css";
+@import "./blocks/hero.css";
+@import "./blocks/information.css";
+@import './blocks/buildwork.css';
+@import "./blocks/workculture.css";
+@import "./blocks/ourblog.css";
+@import "./blocks/strip-updates.css";
+@import "./blocks/footer.css";
+@import "./blocks/base-list.css";
+@import "./tools/page.css";
+@import "./tools/order.css";
