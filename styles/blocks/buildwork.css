@@ -29,32 +29,8 @@
     .build-work_center {
         text-align: center;
     }
+    .build-work .block-text {
+        margin-top: 48px;
+    }
 }
 
-/*@media screen and (min-width: 576px) {*/
-/*    .build-work-text {*/
-/*        margin-top: 100px;*/
-/*    }*/
-/*    .build-work-text {*/
-/*        text-align: center;*/
-/*    }*/
-
-/*    .build-work {*/
-/*        padding-bottom: 136px;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (min-width: 768px) {*/
-/*    .build-work-text {*/
-/*        margin-top: 80px;*/
-/*    }*/
-/*    .build-work-text {*/
-/*        text-align: unset;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (min-width: 1200px) {*/
-/*    .build-work {*/
-/*        padding: 80px 0;*/
-/*    }*/
-/*}*/

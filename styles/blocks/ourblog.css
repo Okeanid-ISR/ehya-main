@@ -104,7 +104,6 @@
 }
 
 .our-blog-advices-image-link__image {
-    height: 100%;
     width: 100%;
     border-radius: 6px;
 }
@@ -128,6 +127,10 @@
         flex-direction: column;
         justify-content: space-around;
     }
+    .our-blog-advices {
+        margin-bottom: 24px;
+        height: 520px
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -136,14 +139,19 @@
     }
 }
 
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .our-blog-advices {
+        margin-bottom: 24px;
+        height: 570px;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .our-blog-advices-image-link {
         width: 100%;
     }
-    .our-blog-advices {
-        margin: 30px 0;
-        height: 100%;
-    }
+
     .our-blog-text__info {
         text-align: center;
     }

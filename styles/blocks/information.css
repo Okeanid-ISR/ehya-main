@@ -41,16 +41,17 @@ hr {
 }
 
 .information-content {
-    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     .information-content {
+        margin-bottom: 35px;
         align-items: center;
     }
+
 }
 
 @media screen and (min-width: 576px) {
