@@ -12,10 +12,20 @@
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
+
 }
 
 .hero__half-container {
     position: relative;
+}
+
+.hero__text {
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.125rem;
+    background: var(--header-gray);
+    flex-grow: 1;
 }
 
 .hero__half-container::before {
@@ -35,23 +45,6 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
-}
-
-.hero-text__theme {
-    line-height: 1.4;
-    color: var(--font-color-secondary);
-    font-family: var(--font-secondary);
-    margin-bottom: 10px;
-    font-size: 2.3rem;
-}
-
-.hero__text {
-    padding: 50px 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.125rem;
-    background: var(--header-gray);
-    flex-grow: 1;
 }
 
 

@@ -14,5 +14,6 @@
 @import "./blocks/strip-updates.css";
 @import "./blocks/footer.css";
 @import "./blocks/base-list.css";
+@import "./blocks/block-text.css";
 @import "./tools/page.css";
 @import "./tools/order.css";

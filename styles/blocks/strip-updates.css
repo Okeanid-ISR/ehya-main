@@ -5,27 +5,8 @@
     padding: 80px 0;
 }
 
-.strip-updates-text__main {
-    font-family: var(--font-secondary);
-    font-size: 3rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 25px;
-}
-
-.strip-updates-text__secondary {
-    font-size: 1.125rem;
-    font-family: var(--font-main);
-    color: #ffffff;
-    font-weight: 400;
-    margin-bottom: 43px;
-}
-
 .str-form-input__mail {
-    background: #FFFFFF;
     border-radius: 8px;
-    text-align: left;
-    text-decoration: none;
     border-style: none;
     outline: none;
     margin-left: 10px;
@@ -52,7 +33,6 @@
 
 .strip-updates .btn_primary {
     padding: 15px 28px 15px 28px;
-    width: 133px;
     height: 50px;
     background: #1565D8;
     color: white;
@@ -78,8 +58,8 @@
 .str-form__check {
     display: flex;
     align-items: center;
-    margin-top: 18px;
     position: relative;
+    top: 18px;
 }
 
 .str-form__input button:hover {
@@ -100,13 +80,13 @@ form#str-form {
 }
 
 .str-form-input__label {
-    cursor: pointer;
-    display: flex;
     font-size: 1.125rem;
     color: var(--header-gray);
     font-family: var(--font-secondary);
-    align-items: flex-start;
+}
 
+.strip-updates__content {
+    margin-bottom: 36px;
 }
 
 .strip-updates__text {
@@ -194,17 +174,16 @@ form#form {
         margin: 0 auto;
         padding: 10px 10px 10px 10px;
         flex-direction: column;
-        font-family: var(--font-main);
-        font-weight: 600;
-        color: #959EAD;
-        font-size: 1rem;
-        border-radius: 8px;
         align-items: center;
         justify-content: space-between;
     }
 
-    .str-form__btn {
+    .strip-updates .btn_primary {
         width: 100%;
+        margin-top: 10px;
+    }
+
+    .str-form__btn {
         margin-top: 10px;
     }
 
@@ -224,21 +203,16 @@ form#form {
 }
 
 @media screen and (min-width: 576px) {
+    .strip-updates .btn_primary {
+        width: 100%;
+        margin-top: 10px;
+    }
+
     .str-form {
-        display: flex;
-        background: #FFFFFF;
         width: 100%;
         height: 126px;
-        margin: 0 auto;
         padding: 10px 10px 10px 10px;
         flex-direction: column;
-        font-family: var(--font-main);
-        font-weight: 600;
-        color: #959EAD;
-        font-size: 1rem;
-        border-radius: 8px;
-        align-items: center;
-        justify-content: space-between;
     }
 
     .str-form__btn {
@@ -266,6 +240,14 @@ form#form {
         width: 400px;
     }
 
+    .strip-updates__content {
+        margin-bottom: 40px;
+    }
+
+    .str-form .btn_primary {
+        margin-top: 0;
+    }
+
     .str-form {
         height: 56px;
         flex-direction: row;
@@ -278,7 +260,6 @@ form#form {
 
     .str-form__check {
         flex-direction: row;
-        display: flex;
     }
 
     .str-form-input {
